@@ -20,6 +20,9 @@ requests = "*"
 jsonschema = "*"
 altair = "*"
 vega-datasets = "*"
+pandas = "*"
+openpyxl = "*"
+xlrd = "*"
 
 [requires]
 python_version = "3.12"
