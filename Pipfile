@@ -23,6 +23,9 @@ vega-datasets = "*"
 pandas = "*"
 openpyxl = "*"
 xlrd = "*"
+pyyaml = "*"
+matplotlib = "*"
+plotly = "*"
 
 [requires]
 python_version = "3.12"
