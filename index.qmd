@@ -142,31 +142,35 @@ grafico_sexos.show()
 
 # [Extra] Proporción de Sexos por Isla o Especie
 ```{python}
-grafico_proporcion = alt.Chart(df_sex).mark_bar(cornerRadiusEnd=5).encode(
-    # Eje X: Islas
-    x=alt.X('island:N', title='Isla', axis=alt.Axis(labelAngle=0, labelFontSize=12)),
+grafico_proporcion = alt.Chart(df_sex).mark_bar(cornerRadiusEnd=3).encode(
+    # Eje X: Ahora usamos la Especie para el eje principal dentro de cada panel
+    x=alt.X('species:N', title='Especie', axis=alt.Axis(labelAngle=0, labelFontSize=12)),
     
-    # Magia de Altair 4.2+: xOffset agrupa las barras de 'sex' una al lado de otra dentro de cada 'island'
+    # Magia de Altair 4.2+: xOffset agrupa las barras de 'sex' una al lado de otra por cada 'species'
     xOffset='sex:N', 
     
-    # Eje Y: Conteo absoluto de pingüinos (sin normalizar)
+    # Eje Y: Conteo absoluto de pingüinos
     y=alt.Y('count():Q', 
             title='Cantidad Exacta de Pingüinos', 
             axis=alt.Axis(labelFontSize=12)),
     
-    # Color: Mantenemos la paleta del gráfico anterior para mantener consistencia visual
+    # Color: Mantenemos la paleta para identificar los sexos
     color=alt.Color('sex:N', 
                     title='Sexo', 
                     scale=alt.Scale(domain=['FEMALE', 'MALE'], range=['#e15759', '#4e79a7'])),
+                    
+    # Facetado: Separamos el gráfico completo en columnas por 'island'
+    column=alt.Column('island:N', title='Isla', header=alt.Header(labelFontSize=14, titleFontSize=14)),
     
-    # Tooltip: Para que al pasar el ratón veamos la cantidad exacta
+    # Tooltip: Para que al pasar el ratón veamos la información exacta
     tooltip=[alt.Tooltip('island:N', title='Isla'), 
+             alt.Tooltip('species:N', title='Especies'),
              alt.Tooltip('sex:N', title='Sexo'), 
              alt.Tooltip('count():Q', title='Cantidad')]
 ).properties(
-    width=400,
+    width=150,  # Ancho por cada panel (isla)
     height=300,
-    title='Cantidad de Machos vs Hembras por Isla (Barras Agrupadas)'
+    title='Cantidad de Machos vs Hembras por Especie e Isla'
 ).configure_title(
     fontSize=18,
     anchor='start',
