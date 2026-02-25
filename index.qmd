@@ -1,14 +1,66 @@
 ---
 title: "Data Visualization 2026"
-author: "Juan Pazmino"
+author: "Juan Pazmino, Wilson Lopez"
 output: html
 ---
 
+# Importar repositorio
 ```{python}
 import pandas as pd
 import altair as alt
 
 dataset_url = 'https://raw.githubusercontent.com/erickedu85/dataset/master/penguins.csv'
 df = pd.read_csv(dataset_url)
-df.head()
+df
+```
+
+# Chequeo los datos
+```{python}
+print(f"Valores unicos species: {df['species'].unique()}\n")
+print(f"Valores unicos island: {df['island'].unique()}")
+```
+
+# Limpieza básica: eliminar filas sin datos de masa corporal
+```{python}
+df = df.dropna(subset=['body_mass_g', 'species', 'island'])
+```
+
+# Pregunta 1
+```{python}
+grafico = alt.Chart(df).mark_boxplot(
+    size=40,          # Grosor de las cajas
+    outliers=True     # Mostrar puntos atípicos
+).encode(
+    # Eje X: Especie
+    x=alt.X('species:N', title=None, axis=alt.Axis(labels=False, ticks=False)),
+    
+    # Eje Y: Masa corporal.
+    y=alt.Y('body_mass_g:Q', 
+            title='Masa Corporal (gramos)', 
+            scale=alt.Scale(zero=False)),
+    
+    # Color: Asignamos un color por especie
+    color=alt.Color('species:N', 
+                    title='Especie', 
+                    scale=alt.Scale(scheme='set2')),
+    
+    # Facetado (Small Multiples): Una columna por cada Isla
+    column=alt.Column('island:N', 
+                      title='Isla', 
+                      header=alt.Header(labelOrient='bottom', titleOrient='bottom', labelFontSize=12))
+    
+).properties(
+    width=150,  # Ancho de cada subgráfico
+    height=350, # Alto de los gráficos
+    title="Distribución de Masa Corporal de Pingüinos por Especie e Isla"
+).configure_title(
+    fontSize=18,
+    anchor='start',
+    offset=20
+).configure_facet(
+    spacing=15 # Espacio entre los paneles
+).configure_view(
+    stroke=None # Quitar el borde exterior de los paneles
+)
+grafico.show()
 ```
