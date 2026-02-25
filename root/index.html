@@ -59,18 +59,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="index_files/libs/quarto-html/popper.min.js"></script>
-<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="index_files/libs/quarto-html/anchor.min.js"></script>
-<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-ff63373b1067ca6f91cf1456aa1f00a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
 
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
@@ -78,10 +110,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="quarto-light">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#importar-repositorio" id="toc-importar-repositorio" class="nav-link active" data-scroll-target="#importar-repositorio">Importar repositorio</a></li>
+  <li><a href="#chequeo-los-datos" id="toc-chequeo-los-datos" class="nav-link" data-scroll-target="#chequeo-los-datos">Chequeo los datos</a></li>
+  <li><a href="#limpieza-básica-eliminar-filas-sin-datos-de-masa-corporal" id="toc-limpieza-básica-eliminar-filas-sin-datos-de-masa-corporal" class="nav-link" data-scroll-target="#limpieza-básica-eliminar-filas-sin-datos-de-masa-corporal">Limpieza básica: eliminar filas sin datos de masa corporal</a></li>
+  <li><a href="#pregunta-1" id="toc-pregunta-1" class="nav-link" data-scroll-target="#pregunta-1">Pregunta 1</a></li>
+  <li><a href="#pregunta-2" id="toc-pregunta-2" class="nav-link" data-scroll-target="#pregunta-2">Pregunta 2</a></li>
+  <li><a href="#pregunta-3" id="toc-pregunta-3" class="nav-link" data-scroll-target="#pregunta-3">Pregunta 3</a></li>
+  <li><a href="#extra-1-proporción-de-sexos-por-isla-o-especie" id="toc-extra-1-proporción-de-sexos-por-isla-o-especie" class="nav-link" data-scroll-target="#extra-1-proporción-de-sexos-por-isla-o-especie">[Extra 1] Proporción de Sexos por Isla o Especie</a></li>
+  <li><a href="#extra-2-relación-entre-la-longitud-de-la-aleta-y-la-masa-corporal" id="toc-extra-2-relación-entre-la-longitud-de-la-aleta-y-la-masa-corporal" class="nav-link" data-scroll-target="#extra-2-relación-entre-la-longitud-de-la-aleta-y-la-masa-corporal">[Extra 2] Relación entre la Longitud de la Aleta y la Masa Corporal</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -111,14 +163,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="importar-repositorio" class="level1">
 <h1>Importar repositorio</h1>
-<div id="65aa0ddf" class="cell" data-execution_count="1">
+<div id="47e4e1b3" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>dataset_url <span class="op">=</span> <span class="st">'https://raw.githubusercontent.com/erickedu85/dataset/master/penguins.csv'</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(dataset_url)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="9">
+</details>
+<div class="cell-output cell-output-display" data-execution_count="1">
 <div>
 
 
@@ -256,9 +311,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="chequeo-los-datos" class="level1">
 <h1>Chequeo los datos</h1>
-<div id="1844b0c6" class="cell" data-execution_count="2">
+<div id="c994d652" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Valores unicos species: </span><span class="sc">{</span>df[<span class="st">'species'</span>]<span class="sc">.</span>unique()<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Valores unicos island: </span><span class="sc">{</span>df[<span class="st">'island'</span>]<span class="sc">.</span>unique()<span class="sc">}</span><span class="ss">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Valores unicos species: &lt;StringArray&gt;
 ['Adelie', 'Chinstrap', 'Gentoo']
@@ -272,14 +330,19 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="limpieza-básica-eliminar-filas-sin-datos-de-masa-corporal" class="level1">
 <h1>Limpieza básica: eliminar filas sin datos de masa corporal</h1>
-<div id="1f1c5cdb" class="cell" data-execution_count="3">
+<div id="2f72696e" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.dropna(subset<span class="op">=</span>[<span class="st">'body_mass_g'</span>, <span class="st">'species'</span>, <span class="st">'island'</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </div>
 <hr>
 </section>
 <section id="pregunta-1" class="level1">
 <h1>Pregunta 1</h1>
-<div id="bb14bf64" class="cell" data-execution_count="4">
+<div id="4a0588ff" class="cell" data-execution_count="4">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>grafico <span class="op">=</span> alt.Chart(df).mark_boxplot(</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    size<span class="op">=</span><span class="dv">40</span>,          <span class="co"># Grosor de las cajas</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    outliers<span class="op">=</span><span class="va">True</span>     <span class="co"># Mostrar puntos atípicos</span></span>
@@ -316,26 +379,27 @@ Length: 3, dtype: str</code></pre>
 <span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    stroke<span class="op">=</span><span class="va">None</span> <span class="co"># Quitar el borde exterior de los paneles</span></span>
 <span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>grafico.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-518dbd212e394f299d3ffd5942db15b5.vega-embed {
+  #altair-viz-93df2fe351c249779f61ffe932447a50.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-518dbd212e394f299d3ffd5942db15b5.vega-embed details,
-  #altair-viz-518dbd212e394f299d3ffd5942db15b5.vega-embed details summary {
+  #altair-viz-93df2fe351c249779f61ffe932447a50.vega-embed details,
+  #altair-viz-93df2fe351c249779f61ffe932447a50.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-518dbd212e394f299d3ffd5942db15b5"></div>
+<div id="altair-viz-93df2fe351c249779f61ffe932447a50"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-518dbd212e394f299d3ffd5942db15b5") {
-      outputDiv = document.getElementById("altair-viz-518dbd212e394f299d3ffd5942db15b5");
+    if (outputDiv.id !== "altair-viz-93df2fe351c249779f61ffe932447a50") {
+      outputDiv = document.getElementById("altair-viz-93df2fe351c249779f61ffe932447a50");
     }
 
     const paths = {
@@ -391,7 +455,9 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="pregunta-2" class="level1">
 <h1>Pregunta 2</h1>
-<div id="69f8f696" class="cell" data-execution_count="5">
+<div id="735d963c" class="cell" data-execution_count="5">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el Mapa de Calor base</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>heatmap <span class="op">=</span> alt.Chart(df).mark_rect().encode(</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span>alt.X(<span class="st">'island:N'</span>, title<span class="op">=</span><span class="st">'Isla'</span>, axis<span class="op">=</span>alt.Axis(labelAngle<span class="op">=</span><span class="dv">0</span>, labelFontSize<span class="op">=</span><span class="dv">12</span>)),</span>
@@ -420,26 +486,27 @@ Length: 3, dtype: str</code></pre>
 <span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>grafico_ubicacion <span class="op">=</span> heatmap <span class="op">+</span> text</span>
 <span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>grafico_ubicacion.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-27cfc0b80dbc41cdbf135e440e3f184b.vega-embed {
+  #altair-viz-dc14913574f34efdba07b974622fa657.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-27cfc0b80dbc41cdbf135e440e3f184b.vega-embed details,
-  #altair-viz-27cfc0b80dbc41cdbf135e440e3f184b.vega-embed details summary {
+  #altair-viz-dc14913574f34efdba07b974622fa657.vega-embed details,
+  #altair-viz-dc14913574f34efdba07b974622fa657.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-27cfc0b80dbc41cdbf135e440e3f184b"></div>
+<div id="altair-viz-dc14913574f34efdba07b974622fa657"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-27cfc0b80dbc41cdbf135e440e3f184b") {
-      outputDiv = document.getElementById("altair-viz-27cfc0b80dbc41cdbf135e440e3f184b");
+    if (outputDiv.id !== "altair-viz-dc14913574f34efdba07b974622fa657") {
+      outputDiv = document.getElementById("altair-viz-dc14913574f34efdba07b974622fa657");
     }
 
     const paths = {
@@ -497,7 +564,9 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="pregunta-3" class="level1">
 <h1>Pregunta 3</h1>
-<div id="fc77414c" class="cell" data-execution_count="6">
+<div id="add39b10" class="cell" data-execution_count="6">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df_sex <span class="op">=</span> df.dropna(subset<span class="op">=</span>[<span class="st">'culmen_depth_mm'</span>, <span class="st">'species'</span>, <span class="st">'sex'</span>])</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>df_sex <span class="op">=</span> df_sex[df_sex[<span class="st">'sex'</span>].isin([<span class="st">'MALE'</span>, <span class="st">'FEMALE'</span>])]</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -525,26 +594,27 @@ Length: 3, dtype: str</code></pre>
 <span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>grafico_sexos.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-057af3246a13402daf5209c0f1ff79ec.vega-embed {
+  #altair-viz-57490b18f94d4087bf0d65c1205d6e12.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-057af3246a13402daf5209c0f1ff79ec.vega-embed details,
-  #altair-viz-057af3246a13402daf5209c0f1ff79ec.vega-embed details summary {
+  #altair-viz-57490b18f94d4087bf0d65c1205d6e12.vega-embed details,
+  #altair-viz-57490b18f94d4087bf0d65c1205d6e12.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-057af3246a13402daf5209c0f1ff79ec"></div>
+<div id="altair-viz-57490b18f94d4087bf0d65c1205d6e12"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-057af3246a13402daf5209c0f1ff79ec") {
-      outputDiv = document.getElementById("altair-viz-057af3246a13402daf5209c0f1ff79ec");
+    if (outputDiv.id !== "altair-viz-57490b18f94d4087bf0d65c1205d6e12") {
+      outputDiv = document.getElementById("altair-viz-57490b18f94d4087bf0d65c1205d6e12");
     }
 
     const paths = {
@@ -608,7 +678,9 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="extra-1-proporción-de-sexos-por-isla-o-especie" class="level1">
 <h1>[Extra 1] Proporción de Sexos por Isla o Especie</h1>
-<div id="3fa76164" class="cell" data-execution_count="7">
+<div id="a12d340b" class="cell" data-execution_count="7">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>grafico_proporcion <span class="op">=</span> alt.Chart(df_sex).mark_bar(cornerRadiusEnd<span class="op">=</span><span class="dv">3</span>).encode(</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Eje X: Ahora usamos la Especie para el eje principal dentro de cada panel</span></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span>alt.X(<span class="st">'species:N'</span>, title<span class="op">=</span><span class="st">'Especie'</span>, axis<span class="op">=</span>alt.Axis(labelAngle<span class="op">=</span><span class="dv">0</span>, labelFontSize<span class="op">=</span><span class="dv">12</span>)),</span>
@@ -644,26 +716,27 @@ Length: 3, dtype: str</code></pre>
 <span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>grafico_proporcion.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-575160f5ec76469cb95cb5a9d28cad33.vega-embed {
+  #altair-viz-eb69fe9309984cb6a2874b738b6dac8b.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-575160f5ec76469cb95cb5a9d28cad33.vega-embed details,
-  #altair-viz-575160f5ec76469cb95cb5a9d28cad33.vega-embed details summary {
+  #altair-viz-eb69fe9309984cb6a2874b738b6dac8b.vega-embed details,
+  #altair-viz-eb69fe9309984cb6a2874b738b6dac8b.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-575160f5ec76469cb95cb5a9d28cad33"></div>
+<div id="altair-viz-eb69fe9309984cb6a2874b738b6dac8b"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-575160f5ec76469cb95cb5a9d28cad33") {
-      outputDiv = document.getElementById("altair-viz-575160f5ec76469cb95cb5a9d28cad33");
+    if (outputDiv.id !== "altair-viz-eb69fe9309984cb6a2874b738b6dac8b") {
+      outputDiv = document.getElementById("altair-viz-eb69fe9309984cb6a2874b738b6dac8b");
     }
 
     const paths = {
@@ -719,7 +792,9 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="extra-2-relación-entre-la-longitud-de-la-aleta-y-la-masa-corporal" class="level1">
 <h1>[Extra 2] Relación entre la Longitud de la Aleta y la Masa Corporal</h1>
-<div id="27198037" class="cell" data-execution_count="8">
+<div id="6b18b10c" class="cell" data-execution_count="8">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df_aleta_masa <span class="op">=</span> df.dropna(subset<span class="op">=</span>[<span class="st">'flipper_length_mm'</span>, <span class="st">'body_mass_g'</span>, <span class="st">'species'</span>])</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico de dispersión</span></span>
@@ -754,26 +829,27 @@ Length: 3, dtype: str</code></pre>
 <span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>).interactive()</span>
 <span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>grafico_dispersion.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-62656c9f8d294fd4a257d51c2c2ce073.vega-embed {
+  #altair-viz-bf4a7eff4a7047348256d5acfd08f971.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-62656c9f8d294fd4a257d51c2c2ce073.vega-embed details,
-  #altair-viz-62656c9f8d294fd4a257d51c2c2ce073.vega-embed details summary {
+  #altair-viz-bf4a7eff4a7047348256d5acfd08f971.vega-embed details,
+  #altair-viz-bf4a7eff4a7047348256d5acfd08f971.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-62656c9f8d294fd4a257d51c2c2ce073"></div>
+<div id="altair-viz-bf4a7eff4a7047348256d5acfd08f971"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-62656c9f8d294fd4a257d51c2c2ce073") {
-      outputDiv = document.getElementById("altair-viz-62656c9f8d294fd4a257d51c2c2ce073");
+    if (outputDiv.id !== "altair-viz-bf4a7eff4a7047348256d5acfd08f971") {
+      outputDiv = document.getElementById("altair-viz-bf4a7eff4a7047348256d5acfd08f971");
     }
 
     const paths = {
@@ -825,10 +901,11 @@ Length: 3, dtype: str</code></pre>
 </script>
 </div>
 </div>
+
+
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

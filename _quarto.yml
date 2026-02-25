@@ -1,0 +1,9 @@
+project:
+  type: website
+  output-dir: root
+
+format:
+  html:
+    toc: true
+
+code-fold: true
