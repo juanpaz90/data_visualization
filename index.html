@@ -163,7 +163,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="importar-repositorio" class="level1">
 <h1>Importar repositorio</h1>
-<div id="47e4e1b3" class="cell" data-execution_count="1">
+<div id="6742d8ca" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -311,7 +311,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="chequeo-los-datos" class="level1">
 <h1>Chequeo los datos</h1>
-<div id="c994d652" class="cell" data-execution_count="2">
+<div id="069822c2" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Valores unicos species: </span><span class="sc">{</span>df[<span class="st">'species'</span>]<span class="sc">.</span>unique()<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
@@ -330,7 +330,7 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="limpieza-básica-eliminar-filas-sin-datos-de-masa-corporal" class="level1">
 <h1>Limpieza básica: eliminar filas sin datos de masa corporal</h1>
-<div id="2f72696e" class="cell" data-execution_count="3">
+<div id="ca38e14c" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.dropna(subset<span class="op">=</span>[<span class="st">'body_mass_g'</span>, <span class="st">'species'</span>, <span class="st">'island'</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -340,7 +340,7 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="pregunta-1" class="level1">
 <h1>Pregunta 1</h1>
-<div id="4a0588ff" class="cell" data-execution_count="4">
+<div id="496f1d7b" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>grafico <span class="op">=</span> alt.Chart(df).mark_boxplot(</span>
@@ -383,23 +383,23 @@ Length: 3, dtype: str</code></pre>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-93df2fe351c249779f61ffe932447a50.vega-embed {
+  #altair-viz-32a7722b689e4fb7b134650b4c7e3c37.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-93df2fe351c249779f61ffe932447a50.vega-embed details,
-  #altair-viz-93df2fe351c249779f61ffe932447a50.vega-embed details summary {
+  #altair-viz-32a7722b689e4fb7b134650b4c7e3c37.vega-embed details,
+  #altair-viz-32a7722b689e4fb7b134650b4c7e3c37.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-93df2fe351c249779f61ffe932447a50"></div>
+<div id="altair-viz-32a7722b689e4fb7b134650b4c7e3c37"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-93df2fe351c249779f61ffe932447a50") {
-      outputDiv = document.getElementById("altair-viz-93df2fe351c249779f61ffe932447a50");
+    if (outputDiv.id !== "altair-viz-32a7722b689e4fb7b134650b4c7e3c37") {
+      outputDiv = document.getElementById("altair-viz-32a7722b689e4fb7b134650b4c7e3c37");
     }
 
     const paths = {
@@ -455,7 +455,7 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="pregunta-2" class="level1">
 <h1>Pregunta 2</h1>
-<div id="735d963c" class="cell" data-execution_count="5">
+<div id="57005222" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el Mapa de Calor base</span></span>
@@ -490,23 +490,23 @@ Length: 3, dtype: str</code></pre>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-dc14913574f34efdba07b974622fa657.vega-embed {
+  #altair-viz-8daf7fe6adee46bc8f9069d53f220281.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-dc14913574f34efdba07b974622fa657.vega-embed details,
-  #altair-viz-dc14913574f34efdba07b974622fa657.vega-embed details summary {
+  #altair-viz-8daf7fe6adee46bc8f9069d53f220281.vega-embed details,
+  #altair-viz-8daf7fe6adee46bc8f9069d53f220281.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-dc14913574f34efdba07b974622fa657"></div>
+<div id="altair-viz-8daf7fe6adee46bc8f9069d53f220281"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-dc14913574f34efdba07b974622fa657") {
-      outputDiv = document.getElementById("altair-viz-dc14913574f34efdba07b974622fa657");
+    if (outputDiv.id !== "altair-viz-8daf7fe6adee46bc8f9069d53f220281") {
+      outputDiv = document.getElementById("altair-viz-8daf7fe6adee46bc8f9069d53f220281");
     }
 
     const paths = {
@@ -564,7 +564,7 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="pregunta-3" class="level1">
 <h1>Pregunta 3</h1>
-<div id="add39b10" class="cell" data-execution_count="6">
+<div id="634ea522" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df_sex <span class="op">=</span> df.dropna(subset<span class="op">=</span>[<span class="st">'culmen_depth_mm'</span>, <span class="st">'species'</span>, <span class="st">'sex'</span>])</span>
@@ -598,23 +598,23 @@ Length: 3, dtype: str</code></pre>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-57490b18f94d4087bf0d65c1205d6e12.vega-embed {
+  #altair-viz-2ce730e97e144490b98b4b3adee925f1.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-57490b18f94d4087bf0d65c1205d6e12.vega-embed details,
-  #altair-viz-57490b18f94d4087bf0d65c1205d6e12.vega-embed details summary {
+  #altair-viz-2ce730e97e144490b98b4b3adee925f1.vega-embed details,
+  #altair-viz-2ce730e97e144490b98b4b3adee925f1.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-57490b18f94d4087bf0d65c1205d6e12"></div>
+<div id="altair-viz-2ce730e97e144490b98b4b3adee925f1"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-57490b18f94d4087bf0d65c1205d6e12") {
-      outputDiv = document.getElementById("altair-viz-57490b18f94d4087bf0d65c1205d6e12");
+    if (outputDiv.id !== "altair-viz-2ce730e97e144490b98b4b3adee925f1") {
+      outputDiv = document.getElementById("altair-viz-2ce730e97e144490b98b4b3adee925f1");
     }
 
     const paths = {
@@ -678,7 +678,7 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="extra-1-proporción-de-sexos-por-isla-o-especie" class="level1">
 <h1>[Extra 1] Proporción de Sexos por Isla o Especie</h1>
-<div id="a12d340b" class="cell" data-execution_count="7">
+<div id="9b8bb64e" class="cell" data-execution_count="7">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>grafico_proporcion <span class="op">=</span> alt.Chart(df_sex).mark_bar(cornerRadiusEnd<span class="op">=</span><span class="dv">3</span>).encode(</span>
@@ -720,23 +720,23 @@ Length: 3, dtype: str</code></pre>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-eb69fe9309984cb6a2874b738b6dac8b.vega-embed {
+  #altair-viz-ce83fcd9a3044d98928f3f049febfe79.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-eb69fe9309984cb6a2874b738b6dac8b.vega-embed details,
-  #altair-viz-eb69fe9309984cb6a2874b738b6dac8b.vega-embed details summary {
+  #altair-viz-ce83fcd9a3044d98928f3f049febfe79.vega-embed details,
+  #altair-viz-ce83fcd9a3044d98928f3f049febfe79.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-eb69fe9309984cb6a2874b738b6dac8b"></div>
+<div id="altair-viz-ce83fcd9a3044d98928f3f049febfe79"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-eb69fe9309984cb6a2874b738b6dac8b") {
-      outputDiv = document.getElementById("altair-viz-eb69fe9309984cb6a2874b738b6dac8b");
+    if (outputDiv.id !== "altair-viz-ce83fcd9a3044d98928f3f049febfe79") {
+      outputDiv = document.getElementById("altair-viz-ce83fcd9a3044d98928f3f049febfe79");
     }
 
     const paths = {
@@ -792,7 +792,7 @@ Length: 3, dtype: str</code></pre>
 </section>
 <section id="extra-2-relación-entre-la-longitud-de-la-aleta-y-la-masa-corporal" class="level1">
 <h1>[Extra 2] Relación entre la Longitud de la Aleta y la Masa Corporal</h1>
-<div id="6b18b10c" class="cell" data-execution_count="8">
+<div id="b4c98616" class="cell" data-execution_count="8">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df_aleta_masa <span class="op">=</span> df.dropna(subset<span class="op">=</span>[<span class="st">'flipper_length_mm'</span>, <span class="st">'body_mass_g'</span>, <span class="st">'species'</span>])</span>
@@ -833,23 +833,23 @@ Length: 3, dtype: str</code></pre>
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-bf4a7eff4a7047348256d5acfd08f971.vega-embed {
+  #altair-viz-b33a129e183e4fb6a78649d1f194fa7a.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-bf4a7eff4a7047348256d5acfd08f971.vega-embed details,
-  #altair-viz-bf4a7eff4a7047348256d5acfd08f971.vega-embed details summary {
+  #altair-viz-b33a129e183e4fb6a78649d1f194fa7a.vega-embed details,
+  #altair-viz-b33a129e183e4fb6a78649d1f194fa7a.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-bf4a7eff4a7047348256d5acfd08f971"></div>
+<div id="altair-viz-b33a129e183e4fb6a78649d1f194fa7a"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-bf4a7eff4a7047348256d5acfd08f971") {
-      outputDiv = document.getElementById("altair-viz-bf4a7eff4a7047348256d5acfd08f971");
+    if (outputDiv.id !== "altair-viz-b33a129e183e4fb6a78649d1f194fa7a") {
+      outputDiv = document.getElementById("altair-viz-b33a129e183e4fb6a78649d1f194fa7a");
     }
 
     const paths = {

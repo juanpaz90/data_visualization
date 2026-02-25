@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: root
+  output-dir: /Users/juanpazmino/Documents/Desarrollo/Personal_projects/data_visualization/
 
 format:
   html:
