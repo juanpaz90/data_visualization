@@ -25,6 +25,7 @@ print(f"Valores unicos island: {df['island'].unique()}")
 df = df.dropna(subset=['body_mass_g', 'species', 'island'])
 ```
 
+***
 # Pregunta 1
 ```{python}
 grafico = alt.Chart(df).mark_boxplot(
@@ -65,6 +66,7 @@ grafico = alt.Chart(df).mark_boxplot(
 grafico.show()
 ```
 
+***
 # Pregunta 2
 ```{python}
 # 1. Crear el Mapa de Calor base
@@ -76,8 +78,8 @@ heatmap = alt.Chart(df).mark_rect().encode(
                     scale=alt.Scale(scheme='blues')), # Paleta de azules
     tooltip=['island', 'species', 'count()']
 ).properties(
-    width=300,
-    height=200,
+    width=400,
+    height=400,
     title='Presencia de Especies por Isla (Mapa de Calor)'
 )
 
@@ -96,3 +98,44 @@ grafico_ubicacion = heatmap + text
 
 grafico_ubicacion.show()
 ```
+
+***
+# Pregunta 3
+
+```{python}
+# 1. Limpieza específica: Filtrar NAs en la variable objetivo y en 'sex'
+# Excluir registros anómalos en sexo (como el punto '.' )
+df_sex = df.dropna(subset=['culmen_depth_mm', 'species', 'sex'])
+df_sex = df_sex[df_sex['sex'].isin(['MALE', 'FEMALE'])]
+
+# 2. Crear el gráfico de densidad superpuesto
+grafico_sexos = alt.Chart(df_sex).transform_density(
+    density='culmen_depth_mm',
+    groupby=['sex', 'species'],
+    as_=['culmen_depth_mm', 'density']
+).mark_area(
+    opacity=0.6 # Añadimos transparencia para ver la superposición
+).encode(
+    x=alt.X('culmen_depth_mm:Q', title='Profundidad del Pico (mm)'),
+    y=alt.Y('density:Q', title='Densidad', axis=alt.Axis(labels=True, ticks=True), stack=None), # Ocultamos el eje Y 
+    color=alt.Color('sex:N', 
+                    title='Sexo', 
+                    scale=alt.Scale(domain=['FEMALE', 'MALE'], range=['#e15759', '#4e79a7'])), # Rojo/Naranja para hembras, Azul para machos
+    column=alt.Column('species:N', title='Especie')
+).properties(
+    width=200,
+    height=250,
+    title='Dimorfismo Sexual: Profundidad del Pico (Machos vs. Hembras)'
+).configure_title(
+    fontSize=16,
+    anchor='start'
+)
+
+grafico_sexos.show()
+```
+
+**Dimorfismo Sexual:** En las tres especies, existe una diferencia notable en la profundidad del pico entre machos y hembras.
+
+**Desplazamiento de las Curvas:** En cada panel (especie), la curva azul (Machos) está desplazada hacia la derecha en comparación con la curva roja (Hembras). Esto significa que los machos, en promedio, tienen picos más profundos (gruesos) que las hembras.
+
+**Zona de Solapamiento:** Aunque los machos tienen picos más grandes, el gráfico de densidad con opacidad nos muestra que existe un área donde el azul y el rojo se solapan. Esto indica que no es una regla absoluta: existen machos con picos pequeños y hembras con picos grandes, pero la tendencia general de la población es innegable.
