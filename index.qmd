@@ -139,3 +139,39 @@ grafico_sexos.show()
 **Desplazamiento de las Curvas:** En cada panel (especie), la curva azul (Machos) está desplazada hacia la derecha en comparación con la curva roja (Hembras). Esto significa que los machos, en promedio, tienen picos más profundos (gruesos) que las hembras.
 
 **Zona de Solapamiento:** Aunque los machos tienen picos más grandes, el gráfico de densidad con opacidad nos muestra que existe un área donde el azul y el rojo se solapan. Esto indica que no es una regla absoluta: existen machos con picos pequeños y hembras con picos grandes, pero la tendencia general de la población es innegable.
+
+# [Extra] Proporción de Sexos por Isla o Especie
+```{python}
+grafico_proporcion = alt.Chart(df_sex).mark_bar(cornerRadiusEnd=5).encode(
+    # Eje X: Islas
+    x=alt.X('island:N', title='Isla', axis=alt.Axis(labelAngle=0, labelFontSize=12)),
+    
+    # Magia de Altair 4.2+: xOffset agrupa las barras de 'sex' una al lado de otra dentro de cada 'island'
+    xOffset='sex:N', 
+    
+    # Eje Y: Conteo absoluto de pingüinos (sin normalizar)
+    y=alt.Y('count():Q', 
+            title='Cantidad Exacta de Pingüinos', 
+            axis=alt.Axis(labelFontSize=12)),
+    
+    # Color: Mantenemos la paleta del gráfico anterior para mantener consistencia visual
+    color=alt.Color('sex:N', 
+                    title='Sexo', 
+                    scale=alt.Scale(domain=['FEMALE', 'MALE'], range=['#e15759', '#4e79a7'])),
+    
+    # Tooltip: Para que al pasar el ratón veamos la cantidad exacta
+    tooltip=[alt.Tooltip('island:N', title='Isla'), 
+             alt.Tooltip('sex:N', title='Sexo'), 
+             alt.Tooltip('count():Q', title='Cantidad')]
+).properties(
+    width=400,
+    height=300,
+    title='Cantidad de Machos vs Hembras por Isla (Barras Agrupadas)'
+).configure_title(
+    fontSize=18,
+    anchor='start',
+    offset=15
+)
+
+grafico_proporcion.show()
+```
