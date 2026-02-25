@@ -69,7 +69,7 @@ grafico.show()
 ***
 # Pregunta 2
 ```{python}
-# 1. Crear el Mapa de Calor base
+# Crear el Mapa de Calor base
 heatmap = alt.Chart(df).mark_rect().encode(
     x=alt.X('island:N', title='Isla', axis=alt.Axis(labelAngle=0, labelFontSize=12)),
     y=alt.Y('species:N', title='Especie', axis=alt.Axis(labelFontSize=12)),
@@ -83,7 +83,7 @@ heatmap = alt.Chart(df).mark_rect().encode(
     title='Presencia de Especies por Isla (Mapa de Calor)'
 )
 
-# 2. Añadir las etiquetas de texto sobre los rectángulos
+# Añadir las etiquetas de texto sobre los rectángulos
 text = heatmap.mark_text(baseline='middle', fontSize=14, fontWeight='bold').encode(
     text='count():Q',
     color=alt.condition(
@@ -93,7 +93,7 @@ text = heatmap.mark_text(baseline='middle', fontSize=14, fontWeight='bold').enco
     )
 )
 
-# 3. Superponer texto y mapa de calor
+# Superponer texto y mapa de calor
 grafico_ubicacion = heatmap + text
 
 grafico_ubicacion.show()
@@ -103,24 +103,22 @@ grafico_ubicacion.show()
 # Pregunta 3
 
 ```{python}
-# 1. Limpieza específica: Filtrar NAs en la variable objetivo y en 'sex'
-# Excluir registros anómalos en sexo (como el punto '.' )
 df_sex = df.dropna(subset=['culmen_depth_mm', 'species', 'sex'])
 df_sex = df_sex[df_sex['sex'].isin(['MALE', 'FEMALE'])]
 
-# 2. Crear el gráfico de densidad superpuesto
+# Grafico de densidad superpuesto
 grafico_sexos = alt.Chart(df_sex).transform_density(
     density='culmen_depth_mm',
     groupby=['sex', 'species'],
     as_=['culmen_depth_mm', 'density']
 ).mark_area(
-    opacity=0.6 # Añadimos transparencia para ver la superposición
+    opacity=0.6 # transparencia para ver la superposición
 ).encode(
     x=alt.X('culmen_depth_mm:Q', title='Profundidad del Pico (mm)'),
-    y=alt.Y('density:Q', title='Densidad', axis=alt.Axis(labels=True, ticks=True), stack=None), # Ocultamos el eje Y 
+    y=alt.Y('density:Q', title='Densidad', axis=alt.Axis(labels=True, ticks=True), stack=None), # Oculto el eje Y 
     color=alt.Color('sex:N', 
                     title='Sexo', 
-                    scale=alt.Scale(domain=['FEMALE', 'MALE'], range=['#e15759', '#4e79a7'])), # Rojo/Naranja para hembras, Azul para machos
+                    scale=alt.Scale(domain=['FEMALE', 'MALE'], range=['#e15759', '#4e79a7'])), # Rojo para hembras, Azul para machos
     column=alt.Column('species:N', title='Especie')
 ).properties(
     width=200,
@@ -140,13 +138,14 @@ grafico_sexos.show()
 
 **Zona de Solapamiento:** Aunque los machos tienen picos más grandes, el gráfico de densidad con opacidad nos muestra que existe un área donde el azul y el rojo se solapan. Esto indica que no es una regla absoluta: existen machos con picos pequeños y hembras con picos grandes, pero la tendencia general de la población es innegable.
 
-# [Extra] Proporción de Sexos por Isla o Especie
+***
+# [Extra 1] Proporción de Sexos por Isla o Especie
 ```{python}
 grafico_proporcion = alt.Chart(df_sex).mark_bar(cornerRadiusEnd=3).encode(
     # Eje X: Ahora usamos la Especie para el eje principal dentro de cada panel
     x=alt.X('species:N', title='Especie', axis=alt.Axis(labelAngle=0, labelFontSize=12)),
     
-    # Magia de Altair 4.2+: xOffset agrupa las barras de 'sex' una al lado de otra por cada 'species'
+    # xOffset agrupa las barras de 'sex' una al lado de otra por cada 'species'
     xOffset='sex:N', 
     
     # Eje Y: Conteo absoluto de pingüinos
@@ -154,7 +153,6 @@ grafico_proporcion = alt.Chart(df_sex).mark_bar(cornerRadiusEnd=3).encode(
             title='Cantidad Exacta de Pingüinos', 
             axis=alt.Axis(labelFontSize=12)),
     
-    # Color: Mantenemos la paleta para identificar los sexos
     color=alt.Color('sex:N', 
                     title='Sexo', 
                     scale=alt.Scale(domain=['FEMALE', 'MALE'], range=['#e15759', '#4e79a7'])),
@@ -162,7 +160,7 @@ grafico_proporcion = alt.Chart(df_sex).mark_bar(cornerRadiusEnd=3).encode(
     # Facetado: Separamos el gráfico completo en columnas por 'island'
     column=alt.Column('island:N', title='Isla', header=alt.Header(labelFontSize=14, titleFontSize=14)),
     
-    # Tooltip: Para que al pasar el ratón veamos la información exacta
+    # Tooltip
     tooltip=[alt.Tooltip('island:N', title='Isla'), 
              alt.Tooltip('species:N', title='Especies'),
              alt.Tooltip('sex:N', title='Sexo'), 
@@ -178,4 +176,44 @@ grafico_proporcion = alt.Chart(df_sex).mark_bar(cornerRadiusEnd=3).encode(
 )
 
 grafico_proporcion.show()
+```
+
+***
+# [Extra 2] Relación entre la Longitud de la Aleta y la Masa Corporal
+```{python}
+df_aleta_masa = df.dropna(subset=['flipper_length_mm', 'body_mass_g', 'species'])
+
+# Crear el gráfico de dispersión
+grafico_dispersion = alt.Chart(df_aleta_masa).mark_circle(size=60, opacity=0.7).encode(
+    # Eje X: Longitud de la aleta.
+    x=alt.X('flipper_length_mm:Q', 
+            title='Longitud de la Aleta (mm)', 
+            scale=alt.Scale(zero=False)),
+            
+    # Eje Y: Masa Corporal
+    y=alt.Y('body_mass_g:Q', 
+            title='Masa Corporal (gramos)', 
+            scale=alt.Scale(zero=False)),
+            
+    color=alt.Color('species:N', 
+                    title='Especie', 
+                    scale=alt.Scale(scheme='set2')),
+                    
+
+    tooltip=[alt.Tooltip('species:N', title='Especie'),
+             alt.Tooltip('island:N', title='Isla'),
+             alt.Tooltip('flipper_length_mm:Q', title='Aleta (mm)'),
+             alt.Tooltip('body_mass_g:Q', title='Masa (g)')]
+).properties(
+    width=600,
+    height=400,
+    title='Correlación: Longitud de Aleta vs Masa Corporal'
+).configure_title(
+    fontSize=18,
+    anchor='start',
+    offset=15
+).interactive()
+
+grafico_dispersion.show()
+
 ```
