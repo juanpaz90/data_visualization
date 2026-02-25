@@ -1,6 +1,6 @@
 ---
 title: "Data Visualization 2026"
-author: "Juan Pazmino, Wilson Lopez"
+author: "Juan Pazmino, Wilson Lopez, Christian Calderon"
 output: html
 ---
 
@@ -63,4 +63,36 @@ grafico = alt.Chart(df).mark_boxplot(
     stroke=None # Quitar el borde exterior de los paneles
 )
 grafico.show()
+```
+
+# Pregunta 2
+```{python}
+# 1. Crear el Mapa de Calor base
+heatmap = alt.Chart(df).mark_rect().encode(
+    x=alt.X('island:N', title='Isla', axis=alt.Axis(labelAngle=0, labelFontSize=12)),
+    y=alt.Y('species:N', title='Especie', axis=alt.Axis(labelFontSize=12)),
+    color=alt.Color('count():Q', 
+                    title='Cant. de Pingüinos', 
+                    scale=alt.Scale(scheme='blues')), # Paleta de azules
+    tooltip=['island', 'species', 'count()']
+).properties(
+    width=300,
+    height=200,
+    title='Presencia de Especies por Isla (Mapa de Calor)'
+)
+
+# 2. Añadir las etiquetas de texto sobre los rectángulos
+text = heatmap.mark_text(baseline='middle', fontSize=14, fontWeight='bold').encode(
+    text='count():Q',
+    color=alt.condition(
+        alt.datum['count()'] > 40,
+        alt.value('white'),
+        alt.value('black')
+    )
+)
+
+# 3. Superponer texto y mapa de calor
+grafico_ubicacion = heatmap + text
+
+grafico_ubicacion.show()
 ```
