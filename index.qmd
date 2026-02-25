@@ -99,6 +99,17 @@ grafico_ubicacion = heatmap + text
 grafico_ubicacion.show()
 ```
 
+**¿Qué especies de pingüinos se encuentran en cada isla?**<br>
+- Isla Biscoe: Está habitada por la especie Adelie y la especie Gentoo. <br>
+- Isla Dream: Está habitada por la especie Adelie y la especie Chinstrap. <br>
+- Isla Torgersen: Está habitada únicamente por la especie Adelie. <br>
+
+**¿Alguna especie está presente solo en una isla?** <br>
+- *Sí* <br>
+- La especie Gentoo es exclusiva de la isla Biscoe. <br>
+- La especie Chinstrap es exclusiva de la isla Dream. <br>
+- La especie Adelie, por el contrario, es la única de este ecosistema. <br>
+
 ***
 # Pregunta 3
 
@@ -132,6 +143,14 @@ grafico_sexos = alt.Chart(df_sex).transform_density(
 grafico_sexos.show()
 ```
 
+**Justificacion del tipo de gráfico**<br>
+- *Para comparar la distribución completa de solo dos categorías (Machos vs. Hembras) sobre una variable continua, la técnica más estética y efectiva es un Gráfico de Densidad Superpuesto con opacidad.* <br>
+
+- **¿Por qué no un Histograma?** Los histogramas superpuestos pueden crear ruido visual donde las barras se cruzan, dificultando ver qué color está detrás. <br>
+
+- **¿Por qué Densidad?** El KDE suaviza los datos mostrando la "forma" de la distribución como una curva fluida. <br>
+
+**Explicación del gráfico** <br>
 **Dimorfismo Sexual:** En las tres especies, existe una diferencia notable en la profundidad del pico entre machos y hembras.
 
 **Desplazamiento de las Curvas:** En cada panel (especie), la curva azul (Machos) está desplazada hacia la derecha en comparación con la curva roja (Hembras). Esto significa que los machos, en promedio, tienen picos más profundos (gruesos) que las hembras.
