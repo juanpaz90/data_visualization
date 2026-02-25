@@ -1,16 +1,14 @@
 ---
-title: "Quarto Basics"
-format:
-  html:
-    code-fold: true
-jupyter: python3
+title: "Data Visualization 2026"
+author: "Juan Pazmino"
+output: html
 ---
 
 ```{python}
 import pandas as pd
 import altair as alt
 
-dataset_url = 'https://raw.githubusercontent.com/erickedu85/dataset/master/donations.csv'
+dataset_url = 'https://raw.githubusercontent.com/erickedu85/dataset/master/penguins.csv'
 df = pd.read_csv(dataset_url)
 df.head()
 ```

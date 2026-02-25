@@ -26,6 +26,8 @@ xlrd = "*"
 pyyaml = "*"
 matplotlib = "*"
 plotly = "*"
+nbformat = "*"
+nbclient = "*"
 
 [requires]
 python_version = "3.12"
