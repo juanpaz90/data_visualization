@@ -1,0 +1,42 @@
+{
+    "ranges": {
+        "name": "Ecuador",
+        "children": [
+            {
+                "name": "EL ORO",
+                "children": [
+                    {
+                        "name": "MACHALA"
+                    }
+                ]
+            },
+            {
+                "name": "ESMERALDAS",
+                "children": [
+                    {
+                        "name": "ESMERALDAS"
+                    }
+                ]
+            },
+            {
+                "name": "GUAYAS",
+                "children": [
+                    {
+                        "name": "GUAYAQUIL"
+                    },
+                    {
+                        "name": "DURÁN"
+                    }
+                ]
+            },
+            {
+                "name": "MANABÍ",
+                "children": [
+                    {
+                        "name": "MANTA"
+                    }
+                ]
+            }
+        ]
+    }
+}

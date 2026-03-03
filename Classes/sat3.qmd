@@ -1,0 +1,413 @@
+---
+title: "Visualización Hola Mundo"
+author: "Erick Cuenca"
+format: html
+---
+
+# Dataset
+
+Vamos a utilizar el dataset de `carros` de vega_dataset <https://vega.github.io/vega-datasets/>
+
+```{python}
+import altair as alt
+from vega_datasets import data
+import pandas as pd
+```
+
+# Carga del dataset
+```{python}
+donations = pd.read_csv("https://raw.githubusercontent.com/erickedu85/dataset/master/donations.csv",parse_dates=['date'])
+donations.head()
+```
+
+```{python}
+# print(alt.themes.names())
+alt.themes.enable('dark')
+```
+
+# Gráfico lineal
+```{python}
+alt.Chart(donations).mark_line().encode(
+    alt.X('date'),
+    alt.Y('sum')
+).interactive()
+```
+# Gráfico de barras
+```{python}
+list_week_day = ['Mon','Tue','Wed', 'Thu','Fri','Sat','Sun']
+
+top_day = donations.groupby('week_day')['sum'].sum().idxmax()
+
+
+chart = alt.Chart(donations).mark_bar().encode(
+    alt.X('sum(sum)'),
+    alt.Y('week_day',sort=list_week_day),
+    color = alt.condition(
+        alt.datum.week_day == top_day,
+        alt.value('coral'),
+        alt.value('steelblue')
+    )
+)
+
+texto = chart.mark_text(align='left',dx=5).encode(
+    text = alt.Text('sum(sum)', format='$.3s')
+    # text = alt.condition(
+    #     alt.datum.week_day == top_day,
+    #     alt.Text('sum(sum):Q', format='$.3s'),
+    #     alt.Text('sum(sum):Q', format='$.3s')
+    # )
+)
+
+chart + texto
+```
+
+# Técnicas de interacción
+
+## Tooltip
+
+```{python}
+cars = data.cars()
+cars['URL'] = "https://google.com/search?q="+cars['Name']
+cars.head()
+
+#paso1
+brush = alt.selection_interval(resolve='intersect')
+#paso3
+condition = alt.condition(
+    brush,
+    'Origin',
+    alt.value('lightgray')
+)
+
+opacity_condition = alt.condition(
+    brush,
+    alt.value(1),
+    alt.value(0.3)
+)
+
+autos = alt.Chart(cars).mark_circle().encode(
+    alt.X("Horsepower"),
+    alt.Y("Miles_per_Gallon"),
+    color = condition,
+    # opacity = opacity_condition,
+    href='URL',
+    tooltip=[
+        alt.Tooltip('Name',title='Nombre: ')
+    ]
+).add_params(brush) #paso2
+
+# autos.save("autos.html")
+
+autos_link = autos.encode(
+    alt.X('Acceleration'),
+    alt.Y('Weight_in_lbs')
+)
+
+
+autos | autos_link
+```
+
+## Bind legend
+
+```{python}
+click_legend = alt.selection_point(fields=['Origin'],bind='legend')
+points_opacity_condition = alt.condition(
+    click_legend,
+    alt.value(1),
+    alt.value(0.3)
+)
+
+points = alt.Chart(cars).mark_circle().encode(
+    alt.X('Horsepower'),
+    alt.Y('Miles_per_Gallon'),
+    alt.Color('Origin'),
+    opacity = points_opacity_condition
+).add_params(click_legend)
+
+points
+```
+
+
+## Selección de 2 gráficos diferentes
+
+```{python}
+# BARRAS
+
+click = alt.selection_point(fields=['Origin'])
+bar_opacity_condition = alt.condition(
+    click,
+    alt.value(1),
+    alt.value(0.3)
+)
+
+bars = alt.Chart(cars).mark_bar().encode(
+    alt.X('count()'),
+    alt.Y('Origin'),
+    alt.Color('Origin'),
+    opacity = bar_opacity_condition,
+    tooltip=[
+        'count()'
+    ]
+).add_params(click)
+
+bars
+
+#POINTS
+
+points_opacity_condition = alt.condition(
+    click,
+    alt.value(1),
+    alt.value(0.3)
+)
+
+points = alt.Chart(cars).mark_circle().encode(
+    alt.X('Horsepower'),
+    alt.Y('Miles_per_Gallon'),
+    alt.Color('Origin'),
+    opacity = points_opacity_condition
+)
+
+points & bars
+```
+
+## Transform filter
+
+```{python}
+
+brush = alt.selection_interval()
+points_opacity_condition = alt.condition(
+    brush,
+    alt.value(1),
+    alt.value(0.3)
+)
+
+points = alt.Chart(cars).mark_circle().encode(
+    alt.X('Horsepower'),
+    alt.Y('Miles_per_Gallon'),
+    alt.Color('Origin'),
+    opacity = points_opacity_condition
+).add_params(brush)
+
+points
+
+bar_chart_max = cars.groupby('Origin').size().max()
+bars = alt.Chart(cars).mark_bar().encode(
+    alt.X('count()', scale=alt.Scale(domain=[0,bar_chart_max])),
+    alt.Y('Origin'),
+    alt.Color('Origin'),
+    tooltip=[
+        'count()'
+    ]
+).transform_filter(brush)
+
+points & bars
+
+```
+
+
+### Leyenda en varios gráficos
+
+```{python}
+click_legend = alt.selection_point(fields=['Origin'],bind='legend')
+
+points_opacity_condition = alt.condition(
+    click_legend,
+    alt.value(1),
+    alt.value(0.3)
+)
+
+points = alt.Chart(cars).mark_circle().encode(
+    alt.X('Horsepower'),
+    alt.Y('Miles_per_Gallon'),
+    alt.Color('Origin'),
+    opacity = points_opacity_condition
+).add_params(click_legend)
+
+bars_opacity_condition = alt.condition(
+    click_legend,
+    alt.value(1),
+    alt.value(0.3)
+)
+
+bars = alt.Chart(cars).mark_bar().encode(
+    alt.X('count()'),
+    alt.Y('Origin'),
+    alt.Color('Origin'),
+    opacity = bars_opacity_condition,
+    tooltip=[
+        'count()'
+    ]
+)
+
+points & bars
+
+```
+
+
+# Movies
+
+```{python}
+movies = pd.read_csv("https://raw.githubusercontent.com/erickedu85/dataset/master/movies-extended.csv", parse_dates=['Release_Date'])
+movies.head()
+```
+
+```{python}
+
+# --- dropdown ----
+unique_genres = sorted(movies['Major_Genre'].unique())
+# print(unique_genres)
+dropdown_genres = alt.binding_select(
+    name="Seleccionar genero: ", 
+    options = unique_genres
+)
+# -------------------
+
+# -- radiobutton ---
+unique_mpaaa = sorted(movies['MPAA_Rating'].unique())
+
+radiobuttons_mpaa = alt.binding_radio(
+    name = "Seleccionar MPAA Rating: ",
+    options = unique_mpaaa
+)
+# ------------------
+
+select_genre_mpaa = alt.selection_point(
+    fields=['Major_Genre','MPAA_Rating'],
+    bind={
+        'Major_Genre':dropdown_genres, 'MPAA_Rating':radiobuttons_mpaa
+        }
+)
+
+opacity_condition = alt.condition(
+    select_genre_mpaa,
+    alt.value(1),
+    alt.value(0.1)
+)
+
+points = alt.Chart(movies).mark_circle().encode(
+    alt.X('Rotten_Tomatoes_Rating'),
+    alt.Y('IMDB_Rating'),
+    alt.Color('Major_Genre'),
+    opacity=opacity_condition,
+    tooltip=['Title']
+).add_params(select_genre_mpaa)
+
+points
+```
+
+## Slider
+
+```{python}
+
+worldwide_gross_max = movies['Worldwide_Gross'].max()
+
+slider_gross = alt.binding_range(
+    name='Worldwide Gross: ',
+    min=0,
+    max=worldwide_gross_max,
+    step=10e6
+)
+
+select_worldwige_gross = alt.selection_point(
+    fields = ['Worldwide_Gross'],
+    bind=slider_gross
+)
+
+opacity_condition = alt.condition(
+    # select_tomatoes_rating,
+    alt.datum.Worldwide_Gross > select_worldwige_gross.Worldwide_Gross,
+    alt.value(1),
+    alt.value(0.1)
+)
+
+points = alt.Chart(movies).mark_circle().encode(
+    alt.X('Rotten_Tomatoes_Rating'),
+    alt.Y('IMDB_Rating'),
+    alt.Color('Major_Genre'),
+    opacity=opacity_condition,
+    tooltip=['Title','Rotten_Tomatoes_Rating','IMDB_Rating','Major_Genre']
+).add_params(select_worldwige_gross).interactive()
+
+points
+```
+
+## Overview + details
+
+```{python}
+
+brush = alt.selection_interval()
+opacity_condition = alt.condition(
+    brush,
+    alt.value(1),
+    alt.value(0.2)
+)
+
+bars_slider = alt.Chart(movies).mark_bar().encode(
+    alt.X('Release_Date'),
+    alt.Y('count()'),
+    opacity = opacity_condition
+).properties(
+    height = 50
+).add_params(brush)
+
+
+points = alt.Chart(movies).mark_circle().encode(
+    alt.X('Rotten_Tomatoes_Rating'),
+    alt.Y('IMDB_Rating'),
+    alt.Color('Major_Genre'),
+    opacity=opacity_condition,
+    tooltip=['Title','Rotten_Tomatoes_Rating','IMDB_Rating','Major_Genre','Release_Date']
+).add_params(brush)
+
+
+points & bars_slider
+
+```
+
+## Minimap - Release Date
+
+```{python}
+
+select_date = alt.selection_interval()
+
+base = alt.Chart(movies).mark_line(point=True).encode(
+    alt.X('Release_Date'),
+    alt.Y('mean(Worldwide_Gross)')
+).properties(
+    width=500
+)
+
+# base
+
+
+##details
+upper_chart = base.encode(
+    alt.X('Release_Date', scale=alt.Scale(domain=select_date))
+).properties(height=180)
+
+lower_chart = base.add_params(select_date).properties(height=50)
+
+upper_chart & lower_chart
+
+```
+
+# Clean Data
+```{python}
+movies_cleaned = data.movies ()
+movies_cleaned.head()
+```
+
+```{python}
+movies_cleaned['Release_Date'] = pd.to_datetime(movies_cleaned['Release_Date'])
+
+movies_cleaned.info()
+```
+
+```{python}
+alt.Chart(movies_cleaned).mark_rect().encode(
+    alt.X('date(Release_Date):O', title='Day'),
+    alt.Y('month(Release_Date):O', title='Month'),
+    color='sum(US_Gross)',
+    tooltip=['sum(US_Gross)']
+)
+```

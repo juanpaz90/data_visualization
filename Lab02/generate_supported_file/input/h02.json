@@ -1,0 +1,77 @@
+{
+    "ranges": {
+        "name": "ECUADOR",
+        "children": [
+            {
+                "name": "GUAYAS (PROV)",
+                "children": [
+                    {
+                        "name": "GUAYAQUIL"
+                    },
+                    {
+                        "name": "DURAN"
+                    },
+                    {
+                        "name": "NARANJAL"
+                    }
+                ]
+            },
+            {
+                "name": "MANABI (PROV)",
+                "children": [
+                    {
+                        "name": "PORTOVIEJO"
+                    },
+                    {
+                        "name": "MANTA"
+                    },
+                    {
+                        "name": "PEDERNALES"
+                    }
+                ]
+            },
+            {
+                "name": "LOS RIOS (PROV)",
+                "children": [
+                    {
+                        "name": "BABAHOYO"
+                    },
+                    {
+                        "name": "QUEVEDO"
+                    },
+                    {
+                        "name": "PUEBLOVIEJO"
+                    }
+                ]
+            },
+            {
+                "name": "EL ORO (PROV)",
+                "children": [
+                    {
+                        "name": "MACHALA"
+                    },
+                    {
+                        "name": "HUAQUILLAS"
+                    },
+                    {
+                        "name": "PASAJE"
+                    }
+                ]
+            },
+            {
+                "name": "ESMERALDAS (PROV)",
+                "children": [
+                    {
+                        "name": "ESMERALDAS"
+                    },
+                    {
+                        "name": "SAN LORENZO"
+                    },
+                    {
+                        "name": "QUININDE"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,4462 @@
+{
+  "name": "Ecuador",
+  "children": [
+    {
+      "name": "24_de_mayo",
+      "children": [
+        {
+          "name": "24_de_mayo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "24_de_mayo_herida_por_arma_blanca"
+        },
+        {
+          "name": "24_de_mayo_heridas_contusas"
+        },
+        {
+          "name": "24_de_mayo_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "aguarico",
+      "children": [
+        {
+          "name": "aguarico_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "alausi",
+      "children": [
+        {
+          "name": "alausi_heridas_contusas"
+        },
+        {
+          "name": "alausi_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "alausi_estrangulacion"
+        },
+        {
+          "name": "alausi_sumersion"
+        },
+        {
+          "name": "alausi_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "alfredo_baquerizo_moreno_jujan",
+      "children": [
+        {
+          "name": "alfredo_baquerizo_moreno_jujan_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "alfredo_baquerizo_moreno_jujan_herida_por_arma_blanca"
+        },
+        {
+          "name": "alfredo_baquerizo_moreno_jujan_heridas_contusas"
+        },
+        {
+          "name": "alfredo_baquerizo_moreno_jujan_estrangulacion"
+        },
+        {
+          "name": "alfredo_baquerizo_moreno_jujan_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "ambato",
+      "children": [
+        {
+          "name": "ambato_herida_por_arma_blanca"
+        },
+        {
+          "name": "ambato_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "ambato_sofocacion"
+        },
+        {
+          "name": "ambato_heridas_contusas"
+        },
+        {
+          "name": "ambato_estrangulacion"
+        },
+        {
+          "name": "ambato_caida"
+        },
+        {
+          "name": "ambato_intoxicacion"
+        },
+        {
+          "name": "ambato_a_determinarse"
+        },
+        {
+          "name": "ambato_precipitacion"
+        },
+        {
+          "name": "ambato_ahorcadura"
+        },
+        {
+          "name": "ambato_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "antonio_ante",
+      "children": [
+        {
+          "name": "antonio_ante_herida_por_arma_blanca"
+        },
+        {
+          "name": "antonio_ante_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "antonio_ante_heridas_contusas"
+        },
+        {
+          "name": "antonio_ante_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "arajuno",
+      "children": [
+        {
+          "name": "arajuno_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "archidona",
+      "children": [
+        {
+          "name": "archidona_herida_por_arma_blanca"
+        },
+        {
+          "name": "archidona_ahorcadura"
+        },
+        {
+          "name": "archidona_estrangulacion"
+        },
+        {
+          "name": "archidona_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "archidona_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "arenillas",
+      "children": [
+        {
+          "name": "arenillas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "arenillas_herida_por_arma_blanca"
+        },
+        {
+          "name": "arenillas_carbonizacion"
+        },
+        {
+          "name": "arenillas_a_determinarse"
+        },
+        {
+          "name": "arenillas_sofocacion"
+        },
+        {
+          "name": "arenillas_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "atacames",
+      "children": [
+        {
+          "name": "atacames_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "atacames_herida_por_arma_blanca"
+        },
+        {
+          "name": "atacames_heridas_contusas"
+        },
+        {
+          "name": "atacames_estrangulacion"
+        },
+        {
+          "name": "atacames_a_determinarse"
+        },
+        {
+          "name": "atacames_ahorcadura"
+        },
+        {
+          "name": "atacames_quemaduras"
+        },
+        {
+          "name": "atacames_sumersion"
+        }
+      ]
+    },
+    {
+      "name": "atahualpa",
+      "children": [
+        {
+          "name": "atahualpa_heridas_contusas"
+        },
+        {
+          "name": "atahualpa_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "atahualpa_sofocacion"
+        },
+        {
+          "name": "atahualpa_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "azogues",
+      "children": [
+        {
+          "name": "azogues_heridas_contusas"
+        },
+        {
+          "name": "azogues_estrangulacion"
+        },
+        {
+          "name": "azogues_herida_por_arma_blanca"
+        },
+        {
+          "name": "azogues_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "azogues_ahorcadura"
+        },
+        {
+          "name": "azogues_a_determinarse"
+        },
+        {
+          "name": "azogues_intoxicacion"
+        }
+      ]
+    },
+    {
+      "name": "baba",
+      "children": [
+        {
+          "name": "baba_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "baba_ahorcadura"
+        },
+        {
+          "name": "baba_herida_por_arma_blanca"
+        },
+        {
+          "name": "baba_estrangulacion"
+        },
+        {
+          "name": "baba_heridas_contusas"
+        },
+        {
+          "name": "baba_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "babahoyo",
+      "children": [
+        {
+          "name": "babahoyo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "babahoyo_ahorcadura"
+        },
+        {
+          "name": "babahoyo_herida_por_arma_blanca"
+        },
+        {
+          "name": "babahoyo_estrangulacion"
+        },
+        {
+          "name": "babahoyo_heridas_contusas"
+        },
+        {
+          "name": "babahoyo_a_determinarse"
+        },
+        {
+          "name": "babahoyo_carbonizacion"
+        },
+        {
+          "name": "babahoyo_quemaduras"
+        },
+        {
+          "name": "babahoyo_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "balao",
+      "children": [
+        {
+          "name": "balao_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "balao_herida_por_arma_blanca"
+        },
+        {
+          "name": "balao_quemaduras"
+        },
+        {
+          "name": "balao_heridas_contusas"
+        },
+        {
+          "name": "balao_estrangulacion"
+        },
+        {
+          "name": "balao_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "balsas",
+      "children": [
+        {
+          "name": "balsas_herida_por_arma_blanca"
+        },
+        {
+          "name": "balsas_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "balzar",
+      "children": [
+        {
+          "name": "balzar_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "balzar_herida_por_arma_blanca"
+        },
+        {
+          "name": "balzar_heridas_contusas"
+        },
+        {
+          "name": "balzar_estrangulacion"
+        },
+        {
+          "name": "balzar_ahorcadura"
+        },
+        {
+          "name": "balzar_quemaduras"
+        }
+      ]
+    },
+    {
+      "name": "banos_de_agua_santa",
+      "children": [
+        {
+          "name": "banos_de_agua_santa_herida_por_arma_blanca"
+        },
+        {
+          "name": "banos_de_agua_santa_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "banos_de_agua_santa_heridas_contusas"
+        },
+        {
+          "name": "banos_de_agua_santa_intoxicacion"
+        },
+        {
+          "name": "banos_de_agua_santa_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "biblian",
+      "children": [
+        {
+          "name": "biblian_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "biblian_herida_por_arma_blanca"
+        },
+        {
+          "name": "biblian_a_determinarse"
+        },
+        {
+          "name": "biblian_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "bolivar",
+      "children": [
+        {
+          "name": "bolivar_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "bolivar_heridas_contusas"
+        },
+        {
+          "name": "bolivar_herida_por_arma_blanca"
+        },
+        {
+          "name": "bolivar_ahorcadura"
+        },
+        {
+          "name": "bolivar_estrangulacion"
+        },
+        {
+          "name": "bolivar_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "buena_fe",
+      "children": [
+        {
+          "name": "buena_fe_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "buena_fe_herida_por_arma_blanca"
+        },
+        {
+          "name": "buena_fe_ahorcadura"
+        },
+        {
+          "name": "buena_fe_quemaduras"
+        },
+        {
+          "name": "buena_fe_sumersion"
+        },
+        {
+          "name": "buena_fe_heridas_contusas"
+        },
+        {
+          "name": "buena_fe_sofocacion"
+        },
+        {
+          "name": "buena_fe_carbonizacion"
+        },
+        {
+          "name": "buena_fe_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "caluma",
+      "children": [
+        {
+          "name": "caluma_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "caluma_estrangulacion"
+        },
+        {
+          "name": "caluma_heridas_contusas"
+        },
+        {
+          "name": "caluma_herida_por_arma_blanca"
+        },
+        {
+          "name": "caluma_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "calvas",
+      "children": [
+        {
+          "name": "calvas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "calvas_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "camilo_ponce_enriquez",
+      "children": [
+        {
+          "name": "camilo_ponce_enriquez_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "camilo_ponce_enriquez_herida_por_arma_blanca"
+        },
+        {
+          "name": "camilo_ponce_enriquez_carbonizacion"
+        },
+        {
+          "name": "camilo_ponce_enriquez_heridas_contusas"
+        },
+        {
+          "name": "camilo_ponce_enriquez_estrangulacion"
+        },
+        {
+          "name": "camilo_ponce_enriquez_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "canar",
+      "children": [
+        {
+          "name": "canar_quemaduras"
+        },
+        {
+          "name": "canar_herida_por_arma_blanca"
+        },
+        {
+          "name": "canar_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "canar_heridas_contusas"
+        },
+        {
+          "name": "canar_aplastamiento"
+        }
+      ]
+    },
+    {
+      "name": "carlos_julio_arosemena_tola",
+      "children": [
+        {
+          "name": "carlos_julio_arosemena_tola_herida_por_arma_blanca"
+        },
+        {
+          "name": "carlos_julio_arosemena_tola_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "carlos_julio_arosemena_tola_caida"
+        },
+        {
+          "name": "carlos_julio_arosemena_tola_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "cascales",
+      "children": [
+        {
+          "name": "cascales_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "cascales_herida_por_arma_blanca"
+        },
+        {
+          "name": "cascales_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "catamayo",
+      "children": [
+        {
+          "name": "catamayo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "catamayo_heridas_contusas"
+        },
+        {
+          "name": "catamayo_estrangulacion"
+        },
+        {
+          "name": "catamayo_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "cayambe",
+      "children": [
+        {
+          "name": "cayambe_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "cayambe_a_determinarse"
+        },
+        {
+          "name": "cayambe_heridas_contusas"
+        },
+        {
+          "name": "cayambe_estrangulacion"
+        },
+        {
+          "name": "cayambe_herida_por_arma_blanca"
+        },
+        {
+          "name": "cayambe_sofocacion"
+        },
+        {
+          "name": "cayambe_ahorcadura"
+        },
+        {
+          "name": "cayambe_caida"
+        }
+      ]
+    },
+    {
+      "name": "celica",
+      "children": [
+        {
+          "name": "celica_carbonizacion"
+        },
+        {
+          "name": "celica_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "centinela_del_condor",
+      "children": [
+        {
+          "name": "centinela_del_condor_heridas_contusas"
+        },
+        {
+          "name": "centinela_del_condor_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "cevallos",
+      "children": [
+        {
+          "name": "cevallos_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "cevallos_estrangulacion"
+        },
+        {
+          "name": "cevallos_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "chaguarpamba",
+      "children": [
+        {
+          "name": "chaguarpamba_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "chaguarpamba_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "chambo",
+      "children": [
+        {
+          "name": "chambo_estrangulacion"
+        },
+        {
+          "name": "chambo_heridas_contusas"
+        },
+        {
+          "name": "chambo_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "chilla",
+      "children": [
+        {
+          "name": "chilla_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "chillanes",
+      "children": [
+        {
+          "name": "chillanes_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "chillanes_herida_por_arma_blanca"
+        },
+        {
+          "name": "chillanes_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "chimbo",
+      "children": [
+        {
+          "name": "chimbo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "chimbo_ahorcadura"
+        },
+        {
+          "name": "chimbo_heridas_contusas"
+        },
+        {
+          "name": "chimbo_estrangulacion"
+        },
+        {
+          "name": "chimbo_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "chinchipe",
+      "children": [
+        {
+          "name": "chinchipe_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "chone",
+      "children": [
+        {
+          "name": "chone_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "chone_herida_por_arma_blanca"
+        },
+        {
+          "name": "chone_ahorcadura"
+        },
+        {
+          "name": "chone_heridas_contusas"
+        },
+        {
+          "name": "chone_estrangulacion"
+        },
+        {
+          "name": "chone_carbonizacion"
+        },
+        {
+          "name": "chone_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "chordeleg",
+      "children": [
+        {
+          "name": "chordeleg_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "chunchi",
+      "children": [
+        {
+          "name": "chunchi_sofocacion"
+        },
+        {
+          "name": "chunchi_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "colimes",
+      "children": [
+        {
+          "name": "colimes_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "colimes_herida_por_arma_blanca"
+        },
+        {
+          "name": "colimes_estrangulacion"
+        },
+        {
+          "name": "colimes_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "colta",
+      "children": [
+        {
+          "name": "colta_heridas_contusas"
+        },
+        {
+          "name": "colta_estrangulacion"
+        },
+        {
+          "name": "colta_herida_por_arma_blanca"
+        },
+        {
+          "name": "colta_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "coronel_marcelino_mariduena",
+      "children": [
+        {
+          "name": "coronel_marcelino_mariduena_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "coronel_marcelino_mariduena_carbonizacion"
+        },
+        {
+          "name": "coronel_marcelino_mariduena_herida_por_arma_blanca"
+        },
+        {
+          "name": "coronel_marcelino_mariduena_quemaduras"
+        },
+        {
+          "name": "coronel_marcelino_mariduena_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "cotacachi",
+      "children": [
+        {
+          "name": "cotacachi_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "cotacachi_herida_por_arma_blanca"
+        },
+        {
+          "name": "cotacachi_heridas_contusas"
+        },
+        {
+          "name": "cotacachi_estrangulacion"
+        },
+        {
+          "name": "cotacachi_a_determinarse"
+        },
+        {
+          "name": "cotacachi_quemaduras"
+        }
+      ]
+    },
+    {
+      "name": "cuenca",
+      "children": [
+        {
+          "name": "cuenca_herida_por_arma_blanca"
+        },
+        {
+          "name": "cuenca_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "cuenca_quemaduras"
+        },
+        {
+          "name": "cuenca_ahorcadura"
+        },
+        {
+          "name": "cuenca_aplastamiento"
+        },
+        {
+          "name": "cuenca_heridas_contusas"
+        },
+        {
+          "name": "cuenca_intoxicacion"
+        },
+        {
+          "name": "cuenca_caida"
+        },
+        {
+          "name": "cuenca_estrangulacion"
+        },
+        {
+          "name": "cuenca_a_determinarse"
+        },
+        {
+          "name": "cuenca_sofocacion"
+        },
+        {
+          "name": "cuenca_sumersion"
+        }
+      ]
+    },
+    {
+      "name": "cumanda",
+      "children": [
+        {
+          "name": "cumanda_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "cumanda_herida_por_arma_blanca"
+        },
+        {
+          "name": "cumanda_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "cuyabeno",
+      "children": [
+        {
+          "name": "cuyabeno_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "cuyabeno_herida_por_arma_blanca"
+        },
+        {
+          "name": "cuyabeno_heridas_contusas"
+        },
+        {
+          "name": "cuyabeno_quemaduras"
+        }
+      ]
+    },
+    {
+      "name": "daule",
+      "children": [
+        {
+          "name": "daule_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "daule_heridas_contusas"
+        },
+        {
+          "name": "daule_herida_por_arma_blanca"
+        },
+        {
+          "name": "daule_sofocacion"
+        },
+        {
+          "name": "daule_quemaduras"
+        },
+        {
+          "name": "daule_a_determinarse"
+        },
+        {
+          "name": "daule_ahorcadura"
+        },
+        {
+          "name": "daule_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "deleg",
+      "children": [
+        {
+          "name": "deleg_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "deleg_heridas_contusas"
+        },
+        {
+          "name": "deleg_herida_por_arma_blanca"
+        },
+        {
+          "name": "deleg_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "duran",
+      "children": [
+        {
+          "name": "duran_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "duran_herida_por_arma_blanca"
+        },
+        {
+          "name": "duran_heridas_contusas"
+        },
+        {
+          "name": "duran_estrangulacion"
+        },
+        {
+          "name": "duran_sofocacion"
+        },
+        {
+          "name": "duran_ahorcadura"
+        },
+        {
+          "name": "duran_a_determinarse"
+        },
+        {
+          "name": "duran_carbonizacion"
+        },
+        {
+          "name": "duran_intoxicacion"
+        },
+        {
+          "name": "duran_aborto"
+        },
+        {
+          "name": "duran_quemaduras"
+        }
+      ]
+    },
+    {
+      "name": "echeandia",
+      "children": [
+        {
+          "name": "echeandia_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "echeandia_herida_por_arma_blanca"
+        },
+        {
+          "name": "echeandia_estrangulacion"
+        },
+        {
+          "name": "echeandia_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "el_carmen",
+      "children": [
+        {
+          "name": "el_carmen_herida_por_arma_blanca"
+        },
+        {
+          "name": "el_carmen_sofocacion"
+        },
+        {
+          "name": "el_carmen_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "el_carmen_intoxicacion"
+        },
+        {
+          "name": "el_carmen_carbonizacion"
+        },
+        {
+          "name": "el_carmen_quemaduras"
+        },
+        {
+          "name": "el_carmen_enfermedad"
+        },
+        {
+          "name": "el_carmen_heridas_contusas"
+        },
+        {
+          "name": "el_carmen_estrangulacion"
+        },
+        {
+          "name": "el_carmen_a_determinarse"
+        },
+        {
+          "name": "el_carmen_caida"
+        },
+        {
+          "name": "el_carmen_ahorcadura"
+        }
+      ]
+    },
+    {
+      "name": "el_chaco",
+      "children": [
+        {
+          "name": "el_chaco_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "el_chaco_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "el_empalme",
+      "children": [
+        {
+          "name": "el_empalme_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "el_empalme_herida_por_arma_blanca"
+        },
+        {
+          "name": "el_empalme_quemaduras"
+        },
+        {
+          "name": "el_empalme_ahorcadura"
+        },
+        {
+          "name": "el_empalme_heridas_contusas"
+        },
+        {
+          "name": "el_empalme_estrangulacion"
+        },
+        {
+          "name": "el_empalme_a_determinarse"
+        },
+        {
+          "name": "el_empalme_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "el_guabo",
+      "children": [
+        {
+          "name": "el_guabo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "el_guabo_herida_por_arma_blanca"
+        },
+        {
+          "name": "el_guabo_a_determinarse"
+        },
+        {
+          "name": "el_guabo_heridas_contusas"
+        },
+        {
+          "name": "el_guabo_ahorcadura"
+        },
+        {
+          "name": "el_guabo_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "el_pan",
+      "children": [
+        {
+          "name": "el_pan_heridas_contusas"
+        },
+        {
+          "name": "el_pan_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "el_pangui",
+      "children": [
+        {
+          "name": "el_pangui_estrangulacion"
+        },
+        {
+          "name": "el_pangui_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "el_pangui_herida_por_arma_blanca"
+        },
+        {
+          "name": "el_pangui_ahorcadura"
+        },
+        {
+          "name": "el_pangui_a_determinarse"
+        },
+        {
+          "name": "el_pangui_quemaduras"
+        }
+      ]
+    },
+    {
+      "name": "el_tambo",
+      "children": [
+        {
+          "name": "el_tambo_estrangulacion"
+        },
+        {
+          "name": "el_tambo_heridas_contusas"
+        },
+        {
+          "name": "el_tambo_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "el_triunfo",
+      "children": [
+        {
+          "name": "el_triunfo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "el_triunfo_herida_por_arma_blanca"
+        },
+        {
+          "name": "el_triunfo_heridas_contusas"
+        },
+        {
+          "name": "el_triunfo_estrangulacion"
+        },
+        {
+          "name": "el_triunfo_ahorcadura"
+        },
+        {
+          "name": "el_triunfo_explosion"
+        }
+      ]
+    },
+    {
+      "name": "eloy_alfaro",
+      "children": [
+        {
+          "name": "eloy_alfaro_ahorcadura"
+        },
+        {
+          "name": "eloy_alfaro_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "eloy_alfaro_herida_por_arma_blanca"
+        },
+        {
+          "name": "eloy_alfaro_sofocacion"
+        },
+        {
+          "name": "eloy_alfaro_estrangulacion"
+        },
+        {
+          "name": "eloy_alfaro_heridas_contusas"
+        },
+        {
+          "name": "eloy_alfaro_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "esmeraldas",
+      "children": [
+        {
+          "name": "esmeraldas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "esmeraldas_herida_por_arma_blanca"
+        },
+        {
+          "name": "esmeraldas_estrangulacion"
+        },
+        {
+          "name": "esmeraldas_heridas_contusas"
+        },
+        {
+          "name": "esmeraldas_sofocacion"
+        },
+        {
+          "name": "esmeraldas_ahorcadura"
+        },
+        {
+          "name": "esmeraldas_aplastamiento"
+        },
+        {
+          "name": "esmeraldas_sumersion"
+        },
+        {
+          "name": "esmeraldas_quemaduras"
+        },
+        {
+          "name": "esmeraldas_a_determinarse"
+        },
+        {
+          "name": "esmeraldas_caida"
+        },
+        {
+          "name": "esmeraldas_intoxicacion"
+        }
+      ]
+    },
+    {
+      "name": "espejo",
+      "children": [
+        {
+          "name": "espejo_herida_por_arma_blanca"
+        },
+        {
+          "name": "espejo_estrangulacion"
+        },
+        {
+          "name": "espejo_heridas_contusas"
+        },
+        {
+          "name": "espejo_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "espindola",
+      "children": [
+        {
+          "name": "espindola_herida_por_arma_blanca"
+        },
+        {
+          "name": "espindola_heridas_contusas"
+        },
+        {
+          "name": "espindola_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "flavio_alfaro",
+      "children": [
+        {
+          "name": "flavio_alfaro_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "flavio_alfaro_herida_por_arma_blanca"
+        },
+        {
+          "name": "flavio_alfaro_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "francisco_de_orellana",
+      "children": [
+        {
+          "name": "francisco_de_orellana_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "francisco_de_orellana_herida_por_arma_blanca"
+        },
+        {
+          "name": "francisco_de_orellana_heridas_contusas"
+        },
+        {
+          "name": "francisco_de_orellana_sofocacion"
+        },
+        {
+          "name": "francisco_de_orellana_estrangulacion"
+        },
+        {
+          "name": "francisco_de_orellana_quemaduras"
+        },
+        {
+          "name": "francisco_de_orellana_ahorcadura"
+        },
+        {
+          "name": "francisco_de_orellana_electrocucion"
+        },
+        {
+          "name": "francisco_de_orellana_caida"
+        },
+        {
+          "name": "francisco_de_orellana_a_determinarse"
+        },
+        {
+          "name": "francisco_de_orellana_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "general_antonio_elizalde",
+      "children": [
+        {
+          "name": "general_antonio_elizalde_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "general_antonio_elizalde_herida_por_arma_blanca"
+        },
+        {
+          "name": "general_antonio_elizalde_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "giron",
+      "children": [
+        {
+          "name": "giron_herida_por_arma_blanca"
+        },
+        {
+          "name": "giron_heridas_contusas"
+        },
+        {
+          "name": "giron_precipitacion"
+        },
+        {
+          "name": "giron_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "giron_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "gonzalo_pizarro",
+      "children": [
+        {
+          "name": "gonzalo_pizarro_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "gonzalo_pizarro_estrangulacion"
+        },
+        {
+          "name": "gonzalo_pizarro_herida_por_arma_blanca"
+        },
+        {
+          "name": "gonzalo_pizarro_explosion"
+        }
+      ]
+    },
+    {
+      "name": "gonzanama",
+      "children": [
+        {
+          "name": "gonzanama_precipitacion"
+        },
+        {
+          "name": "gonzanama_heridas_contusas"
+        },
+        {
+          "name": "gonzanama_herida_por_arma_blanca"
+        },
+        {
+          "name": "gonzanama_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "guachapala",
+      "children": [
+        {
+          "name": "guachapala_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "gualaceo",
+      "children": [
+        {
+          "name": "gualaceo_heridas_contusas"
+        },
+        {
+          "name": "gualaceo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "gualaceo_estrangulacion"
+        },
+        {
+          "name": "gualaceo_herida_por_arma_blanca"
+        },
+        {
+          "name": "gualaceo_ahorcadura"
+        }
+      ]
+    },
+    {
+      "name": "gualaquiza",
+      "children": [
+        {
+          "name": "gualaquiza_ahorcadura"
+        },
+        {
+          "name": "gualaquiza_estrangulacion"
+        },
+        {
+          "name": "gualaquiza_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "gualaquiza_herida_por_arma_blanca"
+        },
+        {
+          "name": "gualaquiza_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "guamote",
+      "children": [
+        {
+          "name": "guamote_carbonizacion"
+        },
+        {
+          "name": "guamote_sofocacion"
+        },
+        {
+          "name": "guamote_herida_por_arma_blanca"
+        },
+        {
+          "name": "guamote_ahorcadura"
+        },
+        {
+          "name": "guamote_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "guano",
+      "children": [
+        {
+          "name": "guano_heridas_contusas"
+        },
+        {
+          "name": "guano_herida_por_arma_blanca"
+        },
+        {
+          "name": "guano_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "guano_sumersion"
+        },
+        {
+          "name": "guano_atragantamiento"
+        },
+        {
+          "name": "guano_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "guaranda",
+      "children": [
+        {
+          "name": "guaranda_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "guaranda_heridas_contusas"
+        },
+        {
+          "name": "guaranda_herida_por_arma_blanca"
+        },
+        {
+          "name": "guaranda_estrangulacion"
+        },
+        {
+          "name": "guaranda_atragantamiento"
+        },
+        {
+          "name": "guaranda_ahorcadura"
+        },
+        {
+          "name": "guaranda_intoxicacion"
+        },
+        {
+          "name": "guaranda_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "guayaquil",
+      "children": [
+        {
+          "name": "guayaquil_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "guayaquil_herida_por_arma_blanca"
+        },
+        {
+          "name": "guayaquil_heridas_contusas"
+        },
+        {
+          "name": "guayaquil_sofocacion"
+        },
+        {
+          "name": "guayaquil_estrangulacion"
+        },
+        {
+          "name": "guayaquil_explosion"
+        },
+        {
+          "name": "guayaquil_intoxicacion"
+        },
+        {
+          "name": "guayaquil_sumersion"
+        },
+        {
+          "name": "guayaquil_ahorcadura"
+        },
+        {
+          "name": "guayaquil_quemaduras"
+        },
+        {
+          "name": "guayaquil_a_determinarse"
+        },
+        {
+          "name": "guayaquil_carbonizacion"
+        },
+        {
+          "name": "guayaquil_aplastamiento"
+        },
+        {
+          "name": "guayaquil_precipitacion"
+        },
+        {
+          "name": "guayaquil_enfermedad"
+        },
+        {
+          "name": "guayaquil_caida"
+        },
+        {
+          "name": "guayaquil_atragantamiento"
+        },
+        {
+          "name": "guayaquil_electrocucion"
+        }
+      ]
+    },
+    {
+      "name": "huamboya",
+      "children": [
+        {
+          "name": "huamboya_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "huamboya_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "huaquillas",
+      "children": [
+        {
+          "name": "huaquillas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "huaquillas_quemaduras"
+        },
+        {
+          "name": "huaquillas_heridas_contusas"
+        },
+        {
+          "name": "huaquillas_caida"
+        },
+        {
+          "name": "huaquillas_herida_por_arma_blanca"
+        },
+        {
+          "name": "huaquillas_ahorcadura"
+        },
+        {
+          "name": "huaquillas_estrangulacion"
+        },
+        {
+          "name": "huaquillas_sofocacion"
+        },
+        {
+          "name": "huaquillas_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "ibarra",
+      "children": [
+        {
+          "name": "ibarra_ahorcadura"
+        },
+        {
+          "name": "ibarra_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "ibarra_heridas_contusas"
+        },
+        {
+          "name": "ibarra_herida_por_arma_blanca"
+        },
+        {
+          "name": "ibarra_a_determinarse"
+        },
+        {
+          "name": "ibarra_estrangulacion"
+        },
+        {
+          "name": "ibarra_sofocacion"
+        },
+        {
+          "name": "ibarra_precipitacion"
+        },
+        {
+          "name": "ibarra_caida"
+        }
+      ]
+    },
+    {
+      "name": "isidro_ayora",
+      "children": [
+        {
+          "name": "isidro_ayora_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "isidro_ayora_estrangulacion"
+        },
+        {
+          "name": "isidro_ayora_herida_por_arma_blanca"
+        },
+        {
+          "name": "isidro_ayora_quemaduras"
+        },
+        {
+          "name": "isidro_ayora_heridas_contusas"
+        },
+        {
+          "name": "isidro_ayora_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "jama",
+      "children": [
+        {
+          "name": "jama_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "jama_sumersion"
+        },
+        {
+          "name": "jama_heridas_contusas"
+        },
+        {
+          "name": "jama_herida_por_arma_blanca"
+        },
+        {
+          "name": "jama_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "jaramijo",
+      "children": [
+        {
+          "name": "jaramijo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "jaramijo_herida_por_arma_blanca"
+        },
+        {
+          "name": "jaramijo_heridas_contusas"
+        },
+        {
+          "name": "jaramijo_estrangulacion"
+        },
+        {
+          "name": "jaramijo_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "jipijapa",
+      "children": [
+        {
+          "name": "jipijapa_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "jipijapa_estrangulacion"
+        },
+        {
+          "name": "jipijapa_aplastamiento"
+        },
+        {
+          "name": "jipijapa_herida_por_arma_blanca"
+        },
+        {
+          "name": "jipijapa_ahorcadura"
+        },
+        {
+          "name": "jipijapa_sofocacion"
+        },
+        {
+          "name": "jipijapa_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "junin",
+      "children": [
+        {
+          "name": "junin_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "junin_herida_por_arma_blanca"
+        },
+        {
+          "name": "junin_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "la_concordia",
+      "children": [
+        {
+          "name": "la_concordia_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "la_concordia_herida_por_arma_blanca"
+        },
+        {
+          "name": "la_concordia_sofocacion"
+        },
+        {
+          "name": "la_concordia_a_determinarse"
+        },
+        {
+          "name": "la_concordia_estrangulacion"
+        },
+        {
+          "name": "la_concordia_heridas_contusas"
+        },
+        {
+          "name": "la_concordia_ahorcadura"
+        },
+        {
+          "name": "la_concordia_intoxicacion"
+        },
+        {
+          "name": "la_concordia_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "la_joya_de_los_sachas",
+      "children": [
+        {
+          "name": "la_joya_de_los_sachas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "la_joya_de_los_sachas_herida_por_arma_blanca"
+        },
+        {
+          "name": "la_joya_de_los_sachas_heridas_contusas"
+        },
+        {
+          "name": "la_joya_de_los_sachas_sumersion"
+        },
+        {
+          "name": "la_joya_de_los_sachas_sofocacion"
+        },
+        {
+          "name": "la_joya_de_los_sachas_a_determinarse"
+        },
+        {
+          "name": "la_joya_de_los_sachas_ahorcadura"
+        },
+        {
+          "name": "la_joya_de_los_sachas_estrangulacion"
+        },
+        {
+          "name": "la_joya_de_los_sachas_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "la_libertad",
+      "children": [
+        {
+          "name": "la_libertad_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "la_libertad_herida_por_arma_blanca"
+        },
+        {
+          "name": "la_libertad_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "la_mana",
+      "children": [
+        {
+          "name": "la_mana_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "la_mana_quemaduras"
+        },
+        {
+          "name": "la_mana_herida_por_arma_blanca"
+        },
+        {
+          "name": "la_mana_estrangulacion"
+        },
+        {
+          "name": "la_mana_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "la_troncal",
+      "children": [
+        {
+          "name": "la_troncal_estrangulacion"
+        },
+        {
+          "name": "la_troncal_herida_por_arma_blanca"
+        },
+        {
+          "name": "la_troncal_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "la_troncal_carbonizacion"
+        },
+        {
+          "name": "la_troncal_heridas_contusas"
+        },
+        {
+          "name": "la_troncal_sumersion"
+        },
+        {
+          "name": "la_troncal_a_determinarse"
+        },
+        {
+          "name": "la_troncal_sofocacion"
+        },
+        {
+          "name": "la_troncal_quemaduras"
+        },
+        {
+          "name": "la_troncal_ahorcadura"
+        }
+      ]
+    },
+    {
+      "name": "lago_agrio",
+      "children": [
+        {
+          "name": "lago_agrio_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "lago_agrio_herida_por_arma_blanca"
+        },
+        {
+          "name": "lago_agrio_heridas_contusas"
+        },
+        {
+          "name": "lago_agrio_estrangulacion"
+        },
+        {
+          "name": "lago_agrio_sofocacion"
+        },
+        {
+          "name": "lago_agrio_sumersion"
+        },
+        {
+          "name": "lago_agrio_a_determinarse"
+        },
+        {
+          "name": "lago_agrio_ahorcadura"
+        },
+        {
+          "name": "lago_agrio_intoxicacion"
+        }
+      ]
+    },
+    {
+      "name": "las_lajas",
+      "children": [
+        {
+          "name": "las_lajas_herida_por_arma_blanca"
+        },
+        {
+          "name": "las_lajas_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "las_naves",
+      "children": [
+        {
+          "name": "las_naves_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "las_naves_estrangulacion"
+        },
+        {
+          "name": "las_naves_herida_por_arma_blanca"
+        },
+        {
+          "name": "las_naves_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "latacunga",
+      "children": [
+        {
+          "name": "latacunga_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "latacunga_herida_por_arma_blanca"
+        },
+        {
+          "name": "latacunga_ahorcadura"
+        },
+        {
+          "name": "latacunga_sumersion"
+        },
+        {
+          "name": "latacunga_heridas_contusas"
+        },
+        {
+          "name": "latacunga_estrangulacion"
+        },
+        {
+          "name": "latacunga_a_determinarse"
+        },
+        {
+          "name": "latacunga_precipitacion"
+        },
+        {
+          "name": "latacunga_carbonizacion"
+        },
+        {
+          "name": "latacunga_caida"
+        }
+      ]
+    },
+    {
+      "name": "limon_indanza",
+      "children": [
+        {
+          "name": "limon_indanza_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "limon_indanza_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "logrono",
+      "children": [
+        {
+          "name": "logrono_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "loja",
+      "children": [
+        {
+          "name": "loja_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "loja_sofocacion"
+        },
+        {
+          "name": "loja_heridas_contusas"
+        },
+        {
+          "name": "loja_estrangulacion"
+        },
+        {
+          "name": "loja_herida_por_arma_blanca"
+        },
+        {
+          "name": "loja_precipitacion"
+        },
+        {
+          "name": "loja_intoxicacion"
+        },
+        {
+          "name": "loja_caida"
+        },
+        {
+          "name": "loja_ahorcadura"
+        }
+      ]
+    },
+    {
+      "name": "lomas_de_sargentillo",
+      "children": [
+        {
+          "name": "lomas_de_sargentillo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "lomas_de_sargentillo_estrangulacion"
+        },
+        {
+          "name": "lomas_de_sargentillo_heridas_contusas"
+        },
+        {
+          "name": "lomas_de_sargentillo_herida_por_arma_blanca"
+        },
+        {
+          "name": "lomas_de_sargentillo_ahorcadura"
+        }
+      ]
+    },
+    {
+      "name": "loreto",
+      "children": [
+        {
+          "name": "loreto_heridas_contusas"
+        },
+        {
+          "name": "loreto_herida_por_arma_blanca"
+        },
+        {
+          "name": "loreto_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "loreto_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "macara",
+      "children": [
+        {
+          "name": "macara_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "macara_estrangulacion"
+        },
+        {
+          "name": "macara_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "machala",
+      "children": [
+        {
+          "name": "machala_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "machala_heridas_contusas"
+        },
+        {
+          "name": "machala_herida_por_arma_blanca"
+        },
+        {
+          "name": "machala_explosion"
+        },
+        {
+          "name": "machala_estrangulacion"
+        },
+        {
+          "name": "machala_ahorcadura"
+        },
+        {
+          "name": "machala_carbonizacion"
+        },
+        {
+          "name": "machala_sofocacion"
+        },
+        {
+          "name": "machala_sumersion"
+        },
+        {
+          "name": "machala_intoxicacion"
+        },
+        {
+          "name": "machala_a_determinarse"
+        },
+        {
+          "name": "machala_quemaduras"
+        }
+      ]
+    },
+    {
+      "name": "manta",
+      "children": [
+        {
+          "name": "manta_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "manta_herida_por_arma_blanca"
+        },
+        {
+          "name": "manta_enfermedad"
+        },
+        {
+          "name": "manta_sofocacion"
+        },
+        {
+          "name": "manta_estrangulacion"
+        },
+        {
+          "name": "manta_ahorcadura"
+        },
+        {
+          "name": "manta_carbonizacion"
+        },
+        {
+          "name": "manta_heridas_contusas"
+        },
+        {
+          "name": "manta_caida"
+        },
+        {
+          "name": "manta_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "mejia",
+      "children": [
+        {
+          "name": "mejia_herida_por_arma_blanca"
+        },
+        {
+          "name": "mejia_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "mejia_estrangulacion"
+        },
+        {
+          "name": "mejia_heridas_contusas"
+        },
+        {
+          "name": "mejia_sofocacion"
+        },
+        {
+          "name": "mejia_ahorcadura"
+        },
+        {
+          "name": "mejia_a_determinarse"
+        },
+        {
+          "name": "mejia_quemaduras"
+        }
+      ]
+    },
+    {
+      "name": "mera",
+      "children": [
+        {
+          "name": "mera_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "mera_herida_por_arma_blanca"
+        },
+        {
+          "name": "mera_heridas_contusas"
+        },
+        {
+          "name": "mera_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "milagro",
+      "children": [
+        {
+          "name": "milagro_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "milagro_quemaduras"
+        },
+        {
+          "name": "milagro_herida_por_arma_blanca"
+        },
+        {
+          "name": "milagro_heridas_contusas"
+        },
+        {
+          "name": "milagro_estrangulacion"
+        },
+        {
+          "name": "milagro_ahorcadura"
+        },
+        {
+          "name": "milagro_sofocacion"
+        },
+        {
+          "name": "milagro_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "mira",
+      "children": [
+        {
+          "name": "mira_estrangulacion"
+        },
+        {
+          "name": "mira_heridas_contusas"
+        },
+        {
+          "name": "mira_a_determinarse"
+        },
+        {
+          "name": "mira_herida_por_arma_blanca"
+        },
+        {
+          "name": "mira_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "mocache",
+      "children": [
+        {
+          "name": "mocache_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "mocache_herida_por_arma_blanca"
+        },
+        {
+          "name": "mocache_estrangulacion"
+        },
+        {
+          "name": "mocache_carbonizacion"
+        },
+        {
+          "name": "mocache_sumersion"
+        },
+        {
+          "name": "mocache_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "mocha",
+      "children": [
+        {
+          "name": "mocha_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "montalvo",
+      "children": [
+        {
+          "name": "montalvo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "montalvo_herida_por_arma_blanca"
+        },
+        {
+          "name": "montalvo_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "montecristi",
+      "children": [
+        {
+          "name": "montecristi_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "montecristi_herida_por_arma_blanca"
+        },
+        {
+          "name": "montecristi_enfermedad"
+        },
+        {
+          "name": "montecristi_heridas_contusas"
+        },
+        {
+          "name": "montecristi_estrangulacion"
+        },
+        {
+          "name": "montecristi_ahorcadura"
+        },
+        {
+          "name": "montecristi_carbonizacion"
+        },
+        {
+          "name": "montecristi_caida"
+        },
+        {
+          "name": "montecristi_quemaduras"
+        },
+        {
+          "name": "montecristi_intoxicacion"
+        }
+      ]
+    },
+    {
+      "name": "montufar",
+      "children": [
+        {
+          "name": "montufar_heridas_contusas"
+        },
+        {
+          "name": "montufar_herida_por_arma_blanca"
+        },
+        {
+          "name": "montufar_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "montufar_atragantamiento"
+        },
+        {
+          "name": "montufar_sofocacion"
+        },
+        {
+          "name": "montufar_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "morona",
+      "children": [
+        {
+          "name": "morona_heridas_contusas"
+        },
+        {
+          "name": "morona_herida_por_arma_blanca"
+        },
+        {
+          "name": "morona_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "morona_intoxicacion"
+        },
+        {
+          "name": "morona_estrangulacion"
+        },
+        {
+          "name": "morona_ahorcadura"
+        },
+        {
+          "name": "morona_sumersion"
+        },
+        {
+          "name": "morona_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "muisne",
+      "children": [
+        {
+          "name": "muisne_herida_por_arma_blanca"
+        },
+        {
+          "name": "muisne_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "muisne_sumersion"
+        },
+        {
+          "name": "muisne_estrangulacion"
+        },
+        {
+          "name": "muisne_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "nabon",
+      "children": [
+        {
+          "name": "nabon_ahorcadura"
+        },
+        {
+          "name": "nabon_precipitacion"
+        },
+        {
+          "name": "nabon_herida_por_arma_blanca"
+        },
+        {
+          "name": "nabon_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "nabon_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "nangaritza",
+      "children": [
+        {
+          "name": "nangaritza_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "nangaritza_herida_por_arma_blanca"
+        },
+        {
+          "name": "nangaritza_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "naranjal",
+      "children": [
+        {
+          "name": "naranjal_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "naranjal_a_determinarse"
+        },
+        {
+          "name": "naranjal_quemaduras"
+        },
+        {
+          "name": "naranjal_estrangulacion"
+        },
+        {
+          "name": "naranjal_herida_por_arma_blanca"
+        },
+        {
+          "name": "naranjal_heridas_contusas"
+        },
+        {
+          "name": "naranjal_carbonizacion"
+        },
+        {
+          "name": "naranjal_ahorcadura"
+        }
+      ]
+    },
+    {
+      "name": "naranjito",
+      "children": [
+        {
+          "name": "naranjito_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "naranjito_herida_por_arma_blanca"
+        },
+        {
+          "name": "naranjito_carbonizacion"
+        },
+        {
+          "name": "naranjito_estrangulacion"
+        },
+        {
+          "name": "naranjito_heridas_contusas"
+        },
+        {
+          "name": "naranjito_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "nobol",
+      "children": [
+        {
+          "name": "nobol_heridas_contusas"
+        },
+        {
+          "name": "nobol_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "nobol_herida_por_arma_blanca"
+        },
+        {
+          "name": "nobol_sofocacion"
+        },
+        {
+          "name": "nobol_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "olmedo",
+      "children": [
+        {
+          "name": "olmedo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "olmedo_herida_por_arma_blanca"
+        },
+        {
+          "name": "olmedo_precipitacion"
+        }
+      ]
+    },
+    {
+      "name": "otavalo",
+      "children": [
+        {
+          "name": "otavalo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "otavalo_herida_por_arma_blanca"
+        },
+        {
+          "name": "otavalo_heridas_contusas"
+        },
+        {
+          "name": "otavalo_estrangulacion"
+        },
+        {
+          "name": "otavalo_caida"
+        },
+        {
+          "name": "otavalo_ahorcadura"
+        },
+        {
+          "name": "otavalo_sofocacion"
+        },
+        {
+          "name": "otavalo_sumersion"
+        },
+        {
+          "name": "otavalo_intoxicacion"
+        }
+      ]
+    },
+    {
+      "name": "pablo_sexto",
+      "children": [
+        {
+          "name": "pablo_sexto_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pablo_sexto_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "pajan",
+      "children": [
+        {
+          "name": "pajan_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pajan_sofocacion"
+        },
+        {
+          "name": "pajan_herida_por_arma_blanca"
+        },
+        {
+          "name": "pajan_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "palanda",
+      "children": [
+        {
+          "name": "palanda_caida"
+        },
+        {
+          "name": "palanda_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "palenque",
+      "children": [
+        {
+          "name": "palenque_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "palenque_herida_por_arma_blanca"
+        },
+        {
+          "name": "palenque_sofocacion"
+        },
+        {
+          "name": "palenque_ahorcadura"
+        },
+        {
+          "name": "palenque_estrangulacion"
+        },
+        {
+          "name": "palenque_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "palestina",
+      "children": [
+        {
+          "name": "palestina_herida_por_arma_blanca"
+        },
+        {
+          "name": "palestina_heridas_contusas"
+        },
+        {
+          "name": "palestina_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "pallatanga",
+      "children": [
+        {
+          "name": "pallatanga_herida_por_arma_blanca"
+        },
+        {
+          "name": "pallatanga_heridas_contusas"
+        },
+        {
+          "name": "pallatanga_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "palora",
+      "children": [
+        {
+          "name": "palora_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "palora_herida_por_arma_blanca"
+        },
+        {
+          "name": "palora_ahorcadura"
+        },
+        {
+          "name": "palora_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "paltas",
+      "children": [
+        {
+          "name": "paltas_herida_por_arma_blanca"
+        },
+        {
+          "name": "paltas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "paltas_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "pangua",
+      "children": [
+        {
+          "name": "pangua_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pangua_heridas_contusas"
+        },
+        {
+          "name": "pangua_herida_por_arma_blanca"
+        },
+        {
+          "name": "pangua_estrangulacion"
+        },
+        {
+          "name": "pangua_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "paquisha",
+      "children": [
+        {
+          "name": "paquisha_herida_por_arma_blanca"
+        },
+        {
+          "name": "paquisha_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "paquisha_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "pasaje",
+      "children": [
+        {
+          "name": "pasaje_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pasaje_herida_por_arma_blanca"
+        },
+        {
+          "name": "pasaje_ahorcadura"
+        },
+        {
+          "name": "pasaje_heridas_contusas"
+        },
+        {
+          "name": "pasaje_sofocacion"
+        },
+        {
+          "name": "pasaje_a_determinarse"
+        },
+        {
+          "name": "pasaje_explosion"
+        }
+      ]
+    },
+    {
+      "name": "pastaza",
+      "children": [
+        {
+          "name": "pastaza_herida_por_arma_blanca"
+        },
+        {
+          "name": "pastaza_sofocacion"
+        },
+        {
+          "name": "pastaza_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pastaza_heridas_contusas"
+        },
+        {
+          "name": "pastaza_a_determinarse"
+        },
+        {
+          "name": "pastaza_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "patate",
+      "children": [
+        {
+          "name": "patate_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "patate_heridas_contusas"
+        },
+        {
+          "name": "patate_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "paute",
+      "children": [
+        {
+          "name": "paute_herida_por_arma_blanca"
+        },
+        {
+          "name": "paute_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "paute_ahorcadura"
+        },
+        {
+          "name": "paute_sumersion"
+        }
+      ]
+    },
+    {
+      "name": "pedernales",
+      "children": [
+        {
+          "name": "pedernales_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pedernales_herida_por_arma_blanca"
+        },
+        {
+          "name": "pedernales_estrangulacion"
+        },
+        {
+          "name": "pedernales_heridas_contusas"
+        },
+        {
+          "name": "pedernales_sofocacion"
+        },
+        {
+          "name": "pedernales_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "pedro_carbo",
+      "children": [
+        {
+          "name": "pedro_carbo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pedro_carbo_herida_por_arma_blanca"
+        },
+        {
+          "name": "pedro_carbo_heridas_contusas"
+        },
+        {
+          "name": "pedro_carbo_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "pedro_moncayo",
+      "children": [
+        {
+          "name": "pedro_moncayo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pedro_moncayo_a_determinarse"
+        },
+        {
+          "name": "pedro_moncayo_herida_por_arma_blanca"
+        },
+        {
+          "name": "pedro_moncayo_heridas_contusas"
+        },
+        {
+          "name": "pedro_moncayo_estrangulacion"
+        },
+        {
+          "name": "pedro_moncayo_ahorcadura"
+        },
+        {
+          "name": "pedro_moncayo_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "pedro_vicente_maldonado",
+      "children": [
+        {
+          "name": "pedro_vicente_maldonado_herida_por_arma_blanca"
+        },
+        {
+          "name": "pedro_vicente_maldonado_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pedro_vicente_maldonado_heridas_contusas"
+        },
+        {
+          "name": "pedro_vicente_maldonado_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "penipe",
+      "children": [
+        {
+          "name": "penipe_heridas_contusas"
+        },
+        {
+          "name": "penipe_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "pichincha",
+      "children": [
+        {
+          "name": "pichincha_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pichincha_herida_por_arma_blanca"
+        },
+        {
+          "name": "pichincha_heridas_contusas"
+        },
+        {
+          "name": "pichincha_intoxicacion"
+        }
+      ]
+    },
+    {
+      "name": "pimampiro",
+      "children": [
+        {
+          "name": "pimampiro_herida_por_arma_blanca"
+        },
+        {
+          "name": "pimampiro_heridas_contusas"
+        },
+        {
+          "name": "pimampiro_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "pinas",
+      "children": [
+        {
+          "name": "pinas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pinas_heridas_contusas"
+        },
+        {
+          "name": "pinas_caida"
+        }
+      ]
+    },
+    {
+      "name": "pindal",
+      "children": [
+        {
+          "name": "pindal_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pindal_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "playas",
+      "children": [
+        {
+          "name": "playas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "playas_ahorcadura"
+        },
+        {
+          "name": "playas_heridas_contusas"
+        },
+        {
+          "name": "playas_herida_por_arma_blanca"
+        },
+        {
+          "name": "playas_estrangulacion"
+        },
+        {
+          "name": "playas_sofocacion"
+        },
+        {
+          "name": "playas_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "portovelo",
+      "children": [
+        {
+          "name": "portovelo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "portovelo_heridas_contusas"
+        },
+        {
+          "name": "portovelo_caida"
+        },
+        {
+          "name": "portovelo_a_determinarse"
+        },
+        {
+          "name": "portovelo_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "portoviejo",
+      "children": [
+        {
+          "name": "portoviejo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "portoviejo_herida_por_arma_blanca"
+        },
+        {
+          "name": "portoviejo_estrangulacion"
+        },
+        {
+          "name": "portoviejo_heridas_contusas"
+        },
+        {
+          "name": "portoviejo_ahorcadura"
+        },
+        {
+          "name": "portoviejo_intoxicacion"
+        },
+        {
+          "name": "portoviejo_sofocacion"
+        },
+        {
+          "name": "portoviejo_a_determinarse"
+        },
+        {
+          "name": "portoviejo_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "pucara",
+      "children": [
+        {
+          "name": "pucara_estrangulacion"
+        },
+        {
+          "name": "pucara_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pucara_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "puebloviejo",
+      "children": [
+        {
+          "name": "puebloviejo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "puebloviejo_herida_por_arma_blanca"
+        },
+        {
+          "name": "puebloviejo_estrangulacion"
+        },
+        {
+          "name": "puebloviejo_heridas_contusas"
+        },
+        {
+          "name": "puebloviejo_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "puerto_lopez",
+      "children": [
+        {
+          "name": "puerto_lopez_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "puerto_lopez_heridas_contusas"
+        },
+        {
+          "name": "puerto_lopez_herida_por_arma_blanca"
+        },
+        {
+          "name": "puerto_lopez_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "puerto_quito",
+      "children": [
+        {
+          "name": "puerto_quito_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "puerto_quito_herida_por_arma_blanca"
+        },
+        {
+          "name": "puerto_quito_heridas_contusas"
+        },
+        {
+          "name": "puerto_quito_carbonizacion"
+        },
+        {
+          "name": "puerto_quito_estrangulacion"
+        },
+        {
+          "name": "puerto_quito_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "pujili",
+      "children": [
+        {
+          "name": "pujili_herida_por_arma_blanca"
+        },
+        {
+          "name": "pujili_heridas_contusas"
+        },
+        {
+          "name": "pujili_a_determinarse"
+        },
+        {
+          "name": "pujili_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "pujili_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "putumayo",
+      "children": [
+        {
+          "name": "putumayo_herida_por_arma_blanca"
+        },
+        {
+          "name": "putumayo_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "puyango",
+      "children": [
+        {
+          "name": "puyango_estrangulacion"
+        },
+        {
+          "name": "puyango_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "puyango_herida_por_arma_blanca"
+        },
+        {
+          "name": "puyango_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "quero",
+      "children": [
+        {
+          "name": "quero_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "quevedo",
+      "children": [
+        {
+          "name": "quevedo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "quevedo_sumersion"
+        },
+        {
+          "name": "quevedo_herida_por_arma_blanca"
+        },
+        {
+          "name": "quevedo_quemaduras"
+        },
+        {
+          "name": "quevedo_ahorcadura"
+        },
+        {
+          "name": "quevedo_estrangulacion"
+        },
+        {
+          "name": "quevedo_carbonizacion"
+        },
+        {
+          "name": "quevedo_sofocacion"
+        },
+        {
+          "name": "quevedo_intoxicacion"
+        },
+        {
+          "name": "quevedo_heridas_contusas"
+        },
+        {
+          "name": "quevedo_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "quijos",
+      "children": [
+        {
+          "name": "quijos_heridas_contusas"
+        },
+        {
+          "name": "quijos_herida_por_arma_blanca"
+        },
+        {
+          "name": "quijos_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "quilanga",
+      "children": [
+        {
+          "name": "quilanga_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "quininde",
+      "children": [
+        {
+          "name": "quininde_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "quininde_carbonizacion"
+        },
+        {
+          "name": "quininde_heridas_contusas"
+        },
+        {
+          "name": "quininde_ahorcadura"
+        },
+        {
+          "name": "quininde_estrangulacion"
+        },
+        {
+          "name": "quininde_herida_por_arma_blanca"
+        },
+        {
+          "name": "quininde_a_determinarse"
+        },
+        {
+          "name": "quininde_sofocacion"
+        },
+        {
+          "name": "quininde_sumersion"
+        },
+        {
+          "name": "quininde_quemaduras"
+        }
+      ]
+    },
+    {
+      "name": "quinsaloma",
+      "children": [
+        {
+          "name": "quinsaloma_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "quinsaloma_herida_por_arma_blanca"
+        },
+        {
+          "name": "quinsaloma_estrangulacion"
+        },
+        {
+          "name": "quinsaloma_heridas_contusas"
+        },
+        {
+          "name": "quinsaloma_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "quito",
+      "children": [
+        {
+          "name": "quito_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "quito_carbonizacion"
+        },
+        {
+          "name": "quito_herida_por_arma_blanca"
+        },
+        {
+          "name": "quito_heridas_contusas"
+        },
+        {
+          "name": "quito_sofocacion"
+        },
+        {
+          "name": "quito_estrangulacion"
+        },
+        {
+          "name": "quito_ahorcadura"
+        },
+        {
+          "name": "quito_a_determinarse"
+        },
+        {
+          "name": "quito_quemaduras"
+        },
+        {
+          "name": "quito_precipitacion"
+        },
+        {
+          "name": "quito_sumersion"
+        },
+        {
+          "name": "quito_caida"
+        },
+        {
+          "name": "quito_enfermedad"
+        },
+        {
+          "name": "quito_intoxicacion"
+        },
+        {
+          "name": "quito_aborto"
+        }
+      ]
+    },
+    {
+      "name": "riobamba",
+      "children": [
+        {
+          "name": "riobamba_herida_por_arma_blanca"
+        },
+        {
+          "name": "riobamba_heridas_contusas"
+        },
+        {
+          "name": "riobamba_sofocacion"
+        },
+        {
+          "name": "riobamba_intoxicacion"
+        },
+        {
+          "name": "riobamba_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "riobamba_estrangulacion"
+        },
+        {
+          "name": "riobamba_quemaduras"
+        },
+        {
+          "name": "riobamba_sumersion"
+        },
+        {
+          "name": "riobamba_ahorcadura"
+        },
+        {
+          "name": "riobamba_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "rioverde",
+      "children": [
+        {
+          "name": "rioverde_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "rioverde_herida_por_arma_blanca"
+        },
+        {
+          "name": "rioverde_heridas_contusas"
+        },
+        {
+          "name": "rioverde_ahorcadura"
+        }
+      ]
+    },
+    {
+      "name": "rocafuerte",
+      "children": [
+        {
+          "name": "rocafuerte_estrangulacion"
+        },
+        {
+          "name": "rocafuerte_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "rocafuerte_herida_por_arma_blanca"
+        },
+        {
+          "name": "rocafuerte_intoxicacion"
+        },
+        {
+          "name": "rocafuerte_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "ruminahui",
+      "children": [
+        {
+          "name": "ruminahui_heridas_contusas"
+        },
+        {
+          "name": "ruminahui_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "ruminahui_herida_por_arma_blanca"
+        },
+        {
+          "name": "ruminahui_quemaduras"
+        },
+        {
+          "name": "ruminahui_estrangulacion"
+        },
+        {
+          "name": "ruminahui_sofocacion"
+        },
+        {
+          "name": "ruminahui_ahorcadura"
+        },
+        {
+          "name": "ruminahui_caida"
+        }
+      ]
+    },
+    {
+      "name": "salcedo",
+      "children": [
+        {
+          "name": "salcedo_heridas_contusas"
+        },
+        {
+          "name": "salcedo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "salcedo_a_determinarse"
+        },
+        {
+          "name": "salcedo_estrangulacion"
+        },
+        {
+          "name": "salcedo_herida_por_arma_blanca"
+        },
+        {
+          "name": "salcedo_sofocacion"
+        },
+        {
+          "name": "salcedo_precipitacion"
+        }
+      ]
+    },
+    {
+      "name": "salinas",
+      "children": [
+        {
+          "name": "salinas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "salinas_heridas_contusas"
+        },
+        {
+          "name": "salinas_herida_por_arma_blanca"
+        },
+        {
+          "name": "salinas_estrangulacion"
+        },
+        {
+          "name": "salinas_sofocacion"
+        },
+        {
+          "name": "salinas_ahorcadura"
+        },
+        {
+          "name": "salinas_intoxicacion"
+        },
+        {
+          "name": "salinas_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "salitre",
+      "children": [
+        {
+          "name": "salitre_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "salitre_herida_por_arma_blanca"
+        },
+        {
+          "name": "salitre_sumersion"
+        },
+        {
+          "name": "salitre_heridas_contusas"
+        },
+        {
+          "name": "salitre_ahorcadura"
+        },
+        {
+          "name": "salitre_caida"
+        }
+      ]
+    },
+    {
+      "name": "samborondon",
+      "children": [
+        {
+          "name": "samborondon_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "samborondon_herida_por_arma_blanca"
+        },
+        {
+          "name": "samborondon_estrangulacion"
+        },
+        {
+          "name": "samborondon_heridas_contusas"
+        },
+        {
+          "name": "samborondon_sumersion"
+        },
+        {
+          "name": "samborondon_sofocacion"
+        },
+        {
+          "name": "samborondon_a_determinarse"
+        },
+        {
+          "name": "samborondon_quemaduras"
+        },
+        {
+          "name": "samborondon_ahorcadura"
+        }
+      ]
+    },
+    {
+      "name": "san_fernando",
+      "children": [
+        {
+          "name": "san_fernando_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "san_jacinto_de_yaguachi",
+      "children": [
+        {
+          "name": "san_jacinto_de_yaguachi_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "san_jacinto_de_yaguachi_herida_por_arma_blanca"
+        },
+        {
+          "name": "san_jacinto_de_yaguachi_heridas_contusas"
+        },
+        {
+          "name": "san_jacinto_de_yaguachi_ahorcadura"
+        },
+        {
+          "name": "san_jacinto_de_yaguachi_estrangulacion"
+        },
+        {
+          "name": "san_jacinto_de_yaguachi_sofocacion"
+        },
+        {
+          "name": "san_jacinto_de_yaguachi_quemaduras"
+        },
+        {
+          "name": "san_jacinto_de_yaguachi_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "san_juan_bosco",
+      "children": [
+        {
+          "name": "san_juan_bosco_heridas_contusas"
+        },
+        {
+          "name": "san_juan_bosco_herida_por_arma_blanca"
+        },
+        {
+          "name": "san_juan_bosco_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "san_lorenzo",
+      "children": [
+        {
+          "name": "san_lorenzo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "san_lorenzo_sofocacion"
+        },
+        {
+          "name": "san_lorenzo_herida_por_arma_blanca"
+        },
+        {
+          "name": "san_lorenzo_sumersion"
+        },
+        {
+          "name": "san_lorenzo_heridas_contusas"
+        },
+        {
+          "name": "san_lorenzo_explosion"
+        },
+        {
+          "name": "san_lorenzo_a_determinarse"
+        },
+        {
+          "name": "san_lorenzo_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "san_miguel",
+      "children": [
+        {
+          "name": "san_miguel_heridas_contusas"
+        },
+        {
+          "name": "san_miguel_herida_por_arma_blanca"
+        },
+        {
+          "name": "san_miguel_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "san_miguel_estrangulacion"
+        },
+        {
+          "name": "san_miguel_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "san_miguel_de_los_bancos",
+      "children": [
+        {
+          "name": "san_miguel_de_los_bancos_heridas_contusas"
+        },
+        {
+          "name": "san_miguel_de_los_bancos_herida_por_arma_blanca"
+        },
+        {
+          "name": "san_miguel_de_los_bancos_estrangulacion"
+        },
+        {
+          "name": "san_miguel_de_los_bancos_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "san_miguel_de_los_bancos_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "san_miguel_de_urcuqui",
+      "children": [
+        {
+          "name": "san_miguel_de_urcuqui_heridas_contusas"
+        },
+        {
+          "name": "san_miguel_de_urcuqui_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "san_miguel_de_urcuqui_herida_por_arma_blanca"
+        },
+        {
+          "name": "san_miguel_de_urcuqui_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "san_pedro_de_huaca",
+      "children": [
+        {
+          "name": "san_pedro_de_huaca_herida_por_arma_blanca"
+        },
+        {
+          "name": "san_pedro_de_huaca_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "san_pedro_de_pelileo",
+      "children": [
+        {
+          "name": "san_pedro_de_pelileo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "san_pedro_de_pelileo_herida_por_arma_blanca"
+        },
+        {
+          "name": "san_pedro_de_pelileo_quemaduras"
+        },
+        {
+          "name": "san_pedro_de_pelileo_caida"
+        },
+        {
+          "name": "san_pedro_de_pelileo_heridas_contusas"
+        },
+        {
+          "name": "san_pedro_de_pelileo_estrangulacion"
+        },
+        {
+          "name": "san_pedro_de_pelileo_aplastamiento"
+        }
+      ]
+    },
+    {
+      "name": "san_vicente",
+      "children": [
+        {
+          "name": "san_vicente_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "san_vicente_sumersion"
+        },
+        {
+          "name": "san_vicente_ahorcadura"
+        },
+        {
+          "name": "san_vicente_herida_por_arma_blanca"
+        },
+        {
+          "name": "san_vicente_estrangulacion"
+        },
+        {
+          "name": "san_vicente_heridas_contusas"
+        },
+        {
+          "name": "san_vicente_caida"
+        },
+        {
+          "name": "san_vicente_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "santa_ana",
+      "children": [
+        {
+          "name": "santa_ana_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "santa_ana_herida_por_arma_blanca"
+        },
+        {
+          "name": "santa_ana_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "santa_clara",
+      "children": [
+        {
+          "name": "santa_clara_herida_por_arma_blanca"
+        },
+        {
+          "name": "santa_clara_heridas_contusas"
+        },
+        {
+          "name": "santa_clara_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "santa_cruz",
+      "children": [
+        {
+          "name": "santa_cruz_herida_por_arma_blanca"
+        },
+        {
+          "name": "santa_cruz_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "santa_elena",
+      "children": [
+        {
+          "name": "santa_elena_explosion"
+        },
+        {
+          "name": "santa_elena_herida_por_arma_blanca"
+        },
+        {
+          "name": "santa_elena_carbonizacion"
+        },
+        {
+          "name": "santa_elena_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "santa_elena_ahorcadura"
+        },
+        {
+          "name": "santa_elena_estrangulacion"
+        },
+        {
+          "name": "santa_elena_quemaduras"
+        },
+        {
+          "name": "santa_elena_heridas_contusas"
+        }
+      ]
+    },
+    {
+      "name": "santa_isabel",
+      "children": [
+        {
+          "name": "santa_isabel_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "santa_isabel_heridas_contusas"
+        },
+        {
+          "name": "santa_isabel_carbonizacion"
+        },
+        {
+          "name": "santa_isabel_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "santa_lucia",
+      "children": [
+        {
+          "name": "santa_lucia_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "santa_lucia_herida_por_arma_blanca"
+        },
+        {
+          "name": "santa_lucia_heridas_contusas"
+        },
+        {
+          "name": "santa_lucia_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "santa_rosa",
+      "children": [
+        {
+          "name": "santa_rosa_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "santa_rosa_a_determinarse"
+        },
+        {
+          "name": "santa_rosa_herida_por_arma_blanca"
+        },
+        {
+          "name": "santa_rosa_heridas_contusas"
+        },
+        {
+          "name": "santa_rosa_estrangulacion"
+        },
+        {
+          "name": "santa_rosa_sofocacion"
+        },
+        {
+          "name": "santa_rosa_ahorcadura"
+        },
+        {
+          "name": "santa_rosa_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "santiago",
+      "children": [
+        {
+          "name": "santiago_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "santiago_herida_por_arma_blanca"
+        },
+        {
+          "name": "santiago_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "santiago_de_pillaro",
+      "children": [
+        {
+          "name": "santiago_de_pillaro_herida_por_arma_blanca"
+        },
+        {
+          "name": "santiago_de_pillaro_heridas_contusas"
+        },
+        {
+          "name": "santiago_de_pillaro_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "santiago_de_pillaro_sofocacion"
+        },
+        {
+          "name": "santiago_de_pillaro_estrangulacion"
+        },
+        {
+          "name": "santiago_de_pillaro_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "santo_domingo",
+      "children": [
+        {
+          "name": "santo_domingo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "santo_domingo_herida_por_arma_blanca"
+        },
+        {
+          "name": "santo_domingo_heridas_contusas"
+        },
+        {
+          "name": "santo_domingo_carbonizacion"
+        },
+        {
+          "name": "santo_domingo_precipitacion"
+        },
+        {
+          "name": "santo_domingo_estrangulacion"
+        },
+        {
+          "name": "santo_domingo_quemaduras"
+        },
+        {
+          "name": "santo_domingo_sumersion"
+        },
+        {
+          "name": "santo_domingo_electrocucion"
+        },
+        {
+          "name": "santo_domingo_a_determinarse"
+        },
+        {
+          "name": "santo_domingo_ahorcadura"
+        },
+        {
+          "name": "santo_domingo_sofocacion"
+        },
+        {
+          "name": "santo_domingo_caida"
+        },
+        {
+          "name": "santo_domingo_intoxicacion"
+        },
+        {
+          "name": "santo_domingo_explosion"
+        }
+      ]
+    },
+    {
+      "name": "saquisili",
+      "children": [
+        {
+          "name": "saquisili_quemaduras"
+        },
+        {
+          "name": "saquisili_ahorcadura"
+        },
+        {
+          "name": "saquisili_heridas_contusas"
+        },
+        {
+          "name": "saquisili_estrangulacion"
+        },
+        {
+          "name": "saquisili_herida_por_arma_blanca"
+        },
+        {
+          "name": "saquisili_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "saraguro",
+      "children": [
+        {
+          "name": "saraguro_heridas_contusas"
+        },
+        {
+          "name": "saraguro_estrangulacion"
+        },
+        {
+          "name": "saraguro_herida_por_arma_blanca"
+        },
+        {
+          "name": "saraguro_sumersion"
+        }
+      ]
+    },
+    {
+      "name": "sevilla_de_oro",
+      "children": [
+        {
+          "name": "sevilla_de_oro_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "sevilla_de_oro_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "shushufindi",
+      "children": [
+        {
+          "name": "shushufindi_herida_por_arma_blanca"
+        },
+        {
+          "name": "shushufindi_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "shushufindi_heridas_contusas"
+        },
+        {
+          "name": "shushufindi_sumersion"
+        },
+        {
+          "name": "shushufindi_estrangulacion"
+        },
+        {
+          "name": "shushufindi_sofocacion"
+        },
+        {
+          "name": "shushufindi_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "sigchos",
+      "children": [
+        {
+          "name": "sigchos_heridas_contusas"
+        },
+        {
+          "name": "sigchos_herida_por_arma_blanca"
+        },
+        {
+          "name": "sigchos_estrangulacion"
+        },
+        {
+          "name": "sigchos_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "sigchos_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "sigsig",
+      "children": [
+        {
+          "name": "sigsig_sofocacion"
+        },
+        {
+          "name": "sigsig_estrangulacion"
+        },
+        {
+          "name": "sigsig_heridas_contusas"
+        },
+        {
+          "name": "sigsig_sumersion"
+        }
+      ]
+    },
+    {
+      "name": "simon_bolivar",
+      "children": [
+        {
+          "name": "simon_bolivar_heridas_contusas"
+        },
+        {
+          "name": "simon_bolivar_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "simon_bolivar_a_determinarse"
+        },
+        {
+          "name": "simon_bolivar_estrangulacion"
+        },
+        {
+          "name": "simon_bolivar_herida_por_arma_blanca"
+        },
+        {
+          "name": "simon_bolivar_intoxicacion"
+        }
+      ]
+    },
+    {
+      "name": "sozoranga",
+      "children": [
+        {
+          "name": "sozoranga_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "sucre",
+      "children": [
+        {
+          "name": "sucre_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "sucre_herida_por_arma_blanca"
+        },
+        {
+          "name": "sucre_heridas_contusas"
+        },
+        {
+          "name": "sucre_ahorcadura"
+        },
+        {
+          "name": "sucre_estrangulacion"
+        },
+        {
+          "name": "sucre_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "sucua",
+      "children": [
+        {
+          "name": "sucua_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "sucua_herida_por_arma_blanca"
+        },
+        {
+          "name": "sucua_heridas_contusas"
+        },
+        {
+          "name": "sucua_ahorcadura"
+        },
+        {
+          "name": "sucua_intoxicacion"
+        },
+        {
+          "name": "sucua_sofocacion"
+        }
+      ]
+    },
+    {
+      "name": "sucumbios",
+      "children": [
+        {
+          "name": "sucumbios_heridas_contusas"
+        },
+        {
+          "name": "sucumbios_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "suscal",
+      "children": [
+        {
+          "name": "suscal_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "taisha",
+      "children": [
+        {
+          "name": "taisha_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "taisha_heridas_contusas"
+        },
+        {
+          "name": "taisha_a_determinarse"
+        },
+        {
+          "name": "taisha_herida_por_arma_blanca"
+        },
+        {
+          "name": "taisha_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "tena",
+      "children": [
+        {
+          "name": "tena_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "tena_herida_por_arma_blanca"
+        },
+        {
+          "name": "tena_heridas_contusas"
+        },
+        {
+          "name": "tena_sofocacion"
+        },
+        {
+          "name": "tena_ahorcadura"
+        },
+        {
+          "name": "tena_a_determinarse"
+        },
+        {
+          "name": "tena_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "tisaleo",
+      "children": [
+        {
+          "name": "tisaleo_heridas_contusas"
+        },
+        {
+          "name": "tisaleo_herida_por_arma_blanca"
+        },
+        {
+          "name": "tisaleo_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "tiwintza",
+      "children": [
+        {
+          "name": "tiwintza_herida_por_arma_blanca"
+        },
+        {
+          "name": "tiwintza_heridas_contusas"
+        },
+        {
+          "name": "tiwintza_ahorcadura"
+        },
+        {
+          "name": "tiwintza_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "tosagua",
+      "children": [
+        {
+          "name": "tosagua_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "tosagua_herida_por_arma_blanca"
+        },
+        {
+          "name": "tosagua_carbonizacion"
+        },
+        {
+          "name": "tosagua_estrangulacion"
+        },
+        {
+          "name": "tosagua_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "tulcan",
+      "children": [
+        {
+          "name": "tulcan_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "tulcan_estrangulacion"
+        },
+        {
+          "name": "tulcan_heridas_contusas"
+        },
+        {
+          "name": "tulcan_herida_por_arma_blanca"
+        },
+        {
+          "name": "tulcan_ahorcadura"
+        },
+        {
+          "name": "tulcan_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "urdaneta",
+      "children": [
+        {
+          "name": "urdaneta_herida_por_arma_blanca"
+        },
+        {
+          "name": "urdaneta_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "urdaneta_ahorcadura"
+        },
+        {
+          "name": "urdaneta_heridas_contusas"
+        },
+        {
+          "name": "urdaneta_carbonizacion"
+        },
+        {
+          "name": "urdaneta_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "valencia",
+      "children": [
+        {
+          "name": "valencia_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "valencia_sofocacion"
+        },
+        {
+          "name": "valencia_herida_por_arma_blanca"
+        },
+        {
+          "name": "valencia_ahorcadura"
+        },
+        {
+          "name": "valencia_estrangulacion"
+        },
+        {
+          "name": "valencia_heridas_contusas"
+        },
+        {
+          "name": "valencia_carbonizacion"
+        }
+      ]
+    },
+    {
+      "name": "ventanas",
+      "children": [
+        {
+          "name": "ventanas_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "ventanas_herida_por_arma_blanca"
+        },
+        {
+          "name": "ventanas_heridas_contusas"
+        },
+        {
+          "name": "ventanas_estrangulacion"
+        },
+        {
+          "name": "ventanas_a_determinarse"
+        },
+        {
+          "name": "ventanas_sumersion"
+        }
+      ]
+    },
+    {
+      "name": "vinces",
+      "children": [
+        {
+          "name": "vinces_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "vinces_herida_por_arma_blanca"
+        },
+        {
+          "name": "vinces_ahorcadura"
+        },
+        {
+          "name": "vinces_estrangulacion"
+        },
+        {
+          "name": "vinces_heridas_contusas"
+        },
+        {
+          "name": "vinces_sumersion"
+        },
+        {
+          "name": "vinces_caida"
+        },
+        {
+          "name": "vinces_sofocacion"
+        },
+        {
+          "name": "vinces_a_determinarse"
+        }
+      ]
+    },
+    {
+      "name": "yantzaza",
+      "children": [
+        {
+          "name": "yantzaza_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "yantzaza_herida_por_arma_blanca"
+        },
+        {
+          "name": "yantzaza_ahorcadura"
+        },
+        {
+          "name": "yantzaza_sofocacion"
+        },
+        {
+          "name": "yantzaza_estrangulacion"
+        }
+      ]
+    },
+    {
+      "name": "zamora",
+      "children": [
+        {
+          "name": "zamora_herida_por_arma_blanca"
+        },
+        {
+          "name": "zamora_heridas_contusas"
+        },
+        {
+          "name": "zamora_estrangulacion"
+        },
+        {
+          "name": "zamora_sofocacion"
+        },
+        {
+          "name": "zamora_herida_por_arma_de_fuego"
+        }
+      ]
+    },
+    {
+      "name": "zapotillo",
+      "children": [
+        {
+          "name": "zapotillo_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "zapotillo_heridas_contusas"
+        },
+        {
+          "name": "zapotillo_estrangulacion"
+        },
+        {
+          "name": "zapotillo_herida_por_arma_blanca"
+        }
+      ]
+    },
+    {
+      "name": "zaruma",
+      "children": [
+        {
+          "name": "zaruma_ahorcadura"
+        },
+        {
+          "name": "zaruma_herida_por_arma_de_fuego"
+        },
+        {
+          "name": "zaruma_herida_por_arma_blanca"
+        },
+        {
+          "name": "zaruma_heridas_contusas"
+        }
+      ]
+    }
+  ]
+}
